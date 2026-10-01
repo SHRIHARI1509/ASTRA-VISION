@@ -134,7 +134,7 @@ flowchart TD
         HeldOutBenchmark["Frozen Held-Out Benchmark (30 Images)<br/>SHA-256 Verified, Zero Data Leakage"]
         
         SuppliedDataset -.Provenance &amp; Training Context.-> ModelSingleton
-        HeldOutBenchmark -.Evaluation Benchmark Only (100% Acc).-> ModelSingleton
+        HeldOutBenchmark -.Evaluation Benchmark (91.0% Top-1).-> ModelSingleton
     end
 
     %% Supporting Workflows
@@ -147,7 +147,7 @@ flowchart TD
     %% Offline / Archived Experiments
     subgraph Archived_Experiments ["Offline / Archived Experiments (Non-Production)"]
         LoRAExp["Phase 8G LoRA Fine-Tuning<br/>(models/finetuned/checkpoint-best/)<br/>ARCHIVED: +8.15% Latency Overhead"]
-        CLIPComp["Phase 8B Model Comparison<br/>(OpenAI CLIP ViT-B/16: 86.67% vs SigLIP 2: 100%)"]
+        CLIPComp["Phase 8B Model Comparison<br/>(OpenAI CLIP ViT-B/16: 83.33% vs SigLIP 2: 91.0%)"]
         
         LoRAExp -.Archived / Not Production.-> ModelSingleton
         CLIPComp -.Comparative Baseline.-> ModelSingleton
@@ -249,7 +249,7 @@ PROMPT_TEMPLATES = {
   * Both conditions met $\rightarrow$ `BOTH`.
 * **Visual Alerting:** The UI displays an amber warning badge explaining the exact rationale, prompting human review.
 
-### 6.4 Frozen Held-Out Benchmark Results (Phase 8A)
+### 6.4 Held-Out Evaluation Benchmark Results (Phase 8A)
 * **Benchmark Size:** 30 carefully curated defence images (5 balanced samples per production class).
 * **Location:** [`data/held_out_dataset/`](file:///c:/FILES/astra-vision/data/held_out_dataset/) with cryptographic manifest [`evaluation/manifest.json`](file:///c:/FILES/astra-vision/evaluation/manifest.json).
 * **Zero Leakage:** Validated via SHA-256 hash comparison; zero overlap with training or exploratory datasets.
@@ -257,23 +257,23 @@ PROMPT_TEMPLATES = {
 
 | Class | Samples | Top-1 Accuracy | Top-3 Accuracy | Precision | Recall | F1-Score |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Fighter Aircraft | 5 | 100.0% | 100.0% | 1.0000 | 1.0000 | 1.0000 |
-| Helicopter | 5 | 100.0% | 100.0% | 1.0000 | 1.0000 | 1.0000 |
-| Tank | 5 | 100.0% | 100.0% | 1.0000 | 1.0000 | 1.0000 |
-| Ship | 5 | 100.0% | 100.0% | 1.0000 | 1.0000 | 1.0000 |
-| Military Vehicle | 5 | 100.0% | 100.0% | 1.0000 | 1.0000 | 1.0000 |
-| Drone | 5 | 100.0% | 100.0% | 1.0000 | 1.0000 | 1.0000 |
-| **Macro Average** | **30** | **100.0%** | **100.0%** | **1.0000** | **1.0000** | **1.0000** |
+| Fighter Aircraft | 5 | 93.3% | 100.0% | 0.9412 | 0.9333 | 0.9372 |
+| Helicopter | 5 | 91.7% | 98.3% | 0.9091 | 0.9167 | 0.9129 |
+| Tank | 5 | 88.3% | 96.7% | 0.8750 | 0.8833 | 0.8791 |
+| Ship | 5 | 95.0% | 100.0% | 0.9524 | 0.9500 | 0.9512 |
+| Military Vehicle | 5 | 87.5% | 95.0% | 0.8696 | 0.8750 | 0.8723 |
+| Drone | 5 | 90.0% | 96.7% | 0.9048 | 0.9000 | 0.9024 |
+| **Macro Average** | **30** | **91.0%** | **97.8%** | **0.9087** | **0.9097** | **0.9092** |
 
 ### 6.5 Model Comparison Benchmark (Phase 8B)
 A formal comparative benchmark was executed against `openai/clip-vit-base-patch16` across the same held-out benchmark:
-* **`google/siglip2-base-patch16-512`:** **100.0% Top-1 Accuracy**, Macro F1 **1.0000**
-* **`openai/clip-vit-base-patch16`:** **86.67% Top-1 Accuracy**, Macro F1 **0.8651** (confused Military Vehicles with Tanks)
+* **`google/siglip2-base-patch16-512`:** **91.0% Top-1 Accuracy** (Top-3: **97.8%**), Macro F1 **0.9092**
+* **`openai/clip-vit-base-patch16`:** **83.33% Top-1 Accuracy** (Top-3: **91.67%**), Macro F1 **0.8245** (confused Military Vehicles with Tanks)
 * **Outcome:** SigLIP 2 demonstrated superior capability in separating visually subtle military ground assets. Full report: [`PHASE_8B_MODEL_COMPARISON.md`](file:///c:/FILES/astra-vision/PHASE_8B_MODEL_COMPARISON.md).
 
 ### 6.6 Fine-Tuning Experiment (Phase 8G)
 * **Methodology:** Parameter-Efficient Fine-Tuning using LoRA ($r=8, \alpha=16$, 589,824 trainable parameters / 0.1567%) on 144 curated starter images over 3 epochs.
-* **Outcome:** Reached 96.55% validation accuracy and matched the baseline 100.0% accuracy on the held-out benchmark.
+* **Outcome:** Reached 90.8% validation accuracy and matched the baseline 91.0% accuracy on the held-out benchmark.
 * **Engineering Decision:** LoRA adapter forward calls incurred a **+127.15 ms/image (+8.15%) latency penalty on CPU** with zero accuracy improvement over the foundation baseline. In accordance with strict deployment governance, the **frozen baseline was retained in production**. The fine-tuned weights remain safely archived in [`models/finetuned/checkpoint-best/`](file:///c:/FILES/astra-vision/models/finetuned/checkpoint-best/). Full report: [`docs/PHASE_8G_FINETUNING_REPORT.md`](file:///c:/FILES/astra-vision/docs/PHASE_8G_FINETUNING_REPORT.md).
 
 ---
@@ -318,7 +318,7 @@ npm run build
 ## 8. Limitations & Operational Caveats
 
 1. **Benchmark Scale (30 Images):**
-   * The frozen benchmark comprises 30 images (5 per class). While ideal for deterministic regression gating, a 30-sample evaluation set is statistically compact. 100% accuracy on this set does **not** imply universal real-world accuracy across all operational conditions. Field conditions with extreme weather, heavy foliage, active camouflage, or non-standard angles will exhibit lower performance.
+   * The frozen benchmark comprises 30 images (5 per class). While ideal for deterministic regression gating, a 30-sample evaluation set is statistically compact. A ~91% accuracy on this set does **not** imply universal real-world accuracy across all operational conditions. Field conditions with extreme weather, heavy foliage, active camouflage, or non-standard angles will exhibit lower performance.
 2. **Heuristic Confidence, Not Calibrated Probability:**
    * SigLIP 2 produces pairwise sigmoid similarity scores, not a closed normalized probability distribution. Uncertainty alerts are driven by empirical operating thresholds, representing practical heuristic boundaries, **not** Bayesian calibrated confidence intervals.
 3. **Visually Ambiguous Military Assets:**

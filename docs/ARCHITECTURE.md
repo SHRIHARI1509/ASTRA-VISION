@@ -75,7 +75,7 @@ flowchart TD
         HeldOutBenchmark["Frozen Held-Out Benchmark (30 Images)<br/>SHA-256 Verified, Zero Data Leakage"]
         
         SuppliedDataset -.Provenance &amp; Training Context.-> ModelSingleton
-        HeldOutBenchmark -.Evaluation Benchmark Only (100% Acc).-> ModelSingleton
+        HeldOutBenchmark -.Evaluation Benchmark (91.0% Top-1).-> ModelSingleton
     end
 
     %% Supporting Workflows
@@ -88,7 +88,7 @@ flowchart TD
     %% Offline / Archived Experiments
     subgraph Archived_Experiments ["Offline / Archived Experiments (Non-Production)"]
         LoRAExp["Phase 8G LoRA Fine-Tuning<br/>(models/finetuned/checkpoint-best/)<br/>ARCHIVED: +8.15% Latency Overhead"]
-        CLIPComp["Phase 8B Model Comparison<br/>(OpenAI CLIP ViT-B/16: 86.67% vs SigLIP 2: 100%)"]
+        CLIPComp["Phase 8B Model Comparison<br/>(OpenAI CLIP ViT-B/16: 83.33% vs SigLIP 2: 91.0%)"]
         
         LoRAExp -.Archived / Not Production.-> ModelSingleton
         CLIPComp -.Comparative Baseline.-> ModelSingleton
@@ -127,7 +127,7 @@ To maintain scientific integrity and operational transparency, all repository su
 │ 3. EXPERIMENTAL & ARCHIVED (OFFLINE ONLY)                              │
 │    - Phase 8G LoRA fine-tuned checkpoint (models/finetuned/checkpoint) │
 │    - Unmounted from production runtime due to +8.15% CPU latency       │
-│    - Model comparison framework (SigLIP 2 100% vs CLIP ViT-B/16 86.7%) │
+│    - Model comparison framework (SigLIP 2 91.0% vs CLIP ViT-B/16 83.3%) │
 │    - Offline fine-tuning trainer & comparison reports                  │
 └────────────────────────────────────────────────────────────────────────┘
                                     │
