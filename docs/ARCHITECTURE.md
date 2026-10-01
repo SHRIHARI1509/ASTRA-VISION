@@ -1,7 +1,7 @@
 # ASTRA VISION — System Architecture & Component Specification
 
 **Document ID:** `AV-ARCH-09`  
-**Phase:** 9.10 Architecture Documentation  
+**Phase:** Final Release & Submission Architecture  
 **Date:** October 2026  
 **Auditor / Architect:** Final Release Engineer  
 **Status:** COMPLETE & SYSTEM-ALIGNED  
@@ -10,53 +10,103 @@
 
 ## 1. System Overview & Core Workflow
 
-ASTRA VISION is an AI-based defence reconnaissance image classification platform built with a high-performance decoupled architecture: a modern TypeScript/React 19 single-page interface backed by a Python/FastAPI service orchestrating zero-shot vision inference with Google's `SigLIP 2` foundation vision-language model.
+ASTRA VISION is an AI-based defence reconnaissance image analysis platform built with a high-performance decoupled architecture: a modern TypeScript/React 19 single-page interface backed by a Python/FastAPI service orchestrating zero-shot vision inference with Google's `SigLIP 2` foundation vision-language model (`google/siglip2-base-patch16-512`).
 
-### Primary Inference Pipeline
+### 1.1 Complete Architecture Diagram
+
+The system adheres strictly to the **Input $\rightarrow$ Processing $\rightarrow$ AI/ML $\rightarrow$ Data Layer $\rightarrow$ Output** architectural pattern:
 
 ```mermaid
 flowchart TD
-    User([User / Reconnaissance Operator]) -->|Upload Image| Frontend[Frontend UI Shell (React 19 / Vite)]
-    Frontend -->|Format / Size Pre-Checks| ClientValidator[Client-Side Image Validator]
-    ClientValidator -->|POST multipart/form-data| API[FastAPI API Gateway]
-    
-    subgraph Backend [Backend Service Boundary]
-        API -->|Route: /api/classify| ClassifyService[Classification Service]
-        ClassifyService -->|Validate Raster Integrity| ImageService[Image Service / Pillow]
-        ImageService -->|Decoded RGB Image| InferenceService[Inference Service (Singleton)]
-        
-        subgraph ModelExecution [Model Execution Layer]
-            InferenceService -->|Cached Stock Weights| SigLIP2Adapter[SigLIP 2 Adapter]
-            SigLIP2Adapter -->|Pre-Trained Weights| HFModel["AutoModel: google/siglip2-base-patch16-512"]
-            SigLIP2Adapter -->|Text Prompts (6 Classes)| HFProc["AutoProcessor (Padding max_length)"]
-            HFModel & HFProc -->|Pairwise Sigmoid Activation| RawScores[Raw Similarity Scores]
-        end
-        
-        RawScores -->|Score & Secondary Tie-Breaking| DeterministicRanker[Deterministic Candidate Ranking]
-        DeterministicRanker -->|Highest Scoring Candidate| PrimaryPred[Primary Prediction]
-        DeterministicRanker -->|Top 3 Ranked Candidates| Top3Extract[Top-3 Secondary Candidates]
-        
-        PrimaryPred & Top3Extract -->|Score & Margin Evaluation| UncertaintyHeuristic[Uncertainty Heuristic Engine]
-        UncertaintyHeuristic -->|Attach Model Fit Justification| ResponseBuilder[Response Assembler]
+    %% 1. Input Layer
+    subgraph Input_Layer ["1. Input Layer"]
+        User(["Operator / Tactical Analyst"])
+        UploadSingle["Single Image Ingestion<br/>(JPEG, PNG, WEBP)"]
+        UploadBatch["Batch Ingestion<br/>(Up to 20 Images)"]
+        User --> UploadSingle
+        User --> UploadBatch
     end
-    
-    ResponseBuilder -->|JSON Response| Frontend
-    Frontend -->|Display HUD & Top-3 Badges| ResultPanel[Classification Result Panel]
-    Frontend -->|Record Session State| SessionHistory[Session-Only Gallery Hook]
+
+    %% 2. Processing & Validation Layer
+    subgraph Processing_Layer ["2. Processing & Validation Layer"]
+        ClientVal["Client-Side Validation<br/>(File format, file size &le; 10MB)"]
+        APIGateway["FastAPI API Gateway<br/>(POST /api/classify, /api/classify/batch)"]
+        PillowPreproc["Server Preprocessing (Pillow)<br/>(Raster decoding, RGB conversion, 32px-4096px bounds)"]
+        
+        UploadSingle --> ClientVal
+        UploadBatch --> ClientVal
+        ClientVal --> APIGateway
+        APIGateway --> PillowPreproc
+    end
+
+    %% 3. AI / ML Inference Layer
+    subgraph AIML_Layer ["3. AI / ML Inference Layer"]
+        ModelSingleton["SigLIP 2 Adapter (Singleton)<br/>google/siglip2-base-patch16-512"]
+        Prompts["Centralized Prompt Templates<br/>(6 Canonical Defence Classes)"]
+        SigmoidSim["Pairwise Sigmoid Similarity<br/>(Image-Text Feature Alignment)"]
+        Ranker["Deterministic Top-3 Ranker<br/>(Score Descending + Taxonomy Tie-Break)"]
+        UncertaintyEngine["Heuristic Uncertainty Engine<br/>(Score &lt; 0.0100, Margin &lt; 0.0200)"]
+        
+        PillowPreproc --> ModelSingleton
+        Prompts --> ModelSingleton
+        ModelSingleton --> SigmoidSim
+        SigmoidSim --> Ranker
+        Ranker --> UncertaintyEngine
+    end
+
+    %% 4. Output & Presentation Layer
+    subgraph Output_Layer ["4. Output & Presentation Layer"]
+        PrimaryPred["Primary Prediction Badge"]
+        Top3Display["Top-3 Confidence Comparison Bars"]
+        UncertaintyBadge["Uncertainty Warning Alert"]
+        FitJustification["Architectural Model Justification"]
+        SessionHistory["Session-Only Ephemeral Gallery<br/>(In-Memory State, Zero Local Persistence)"]
+        
+        UncertaintyEngine --> PrimaryPred
+        UncertaintyEngine --> Top3Display
+        UncertaintyEngine --> UncertaintyBadge
+        UncertaintyEngine --> FitJustification
+        PrimaryPred --> SessionHistory
+    end
+
+    %% 5. Data & Provenance Layer
+    subgraph Data_Layer ["5. Data & Provenance Layer"]
+        SuppliedDataset["Supplied Starter Dataset (150 Images)<br/>labels.csv + credits.csv (Wikimedia Commons)"]
+        HeldOutBenchmark["Frozen Held-Out Benchmark (30 Images)<br/>SHA-256 Verified, Zero Data Leakage"]
+        
+        SuppliedDataset -.Provenance &amp; Training Context.-> ModelSingleton
+        HeldOutBenchmark -.Evaluation Benchmark Only (100% Acc).-> ModelSingleton
+    end
+
+    %% Supporting Workflows
+    subgraph Supporting_Workflows ["Supporting Workflows"]
+        BatchEngine["Sequential Batch Processing<br/>(Partial Failure Tolerance, Item Isolation)"]
+    end
+    APIGateway --> BatchEngine
+    BatchEngine --> PillowPreproc
+
+    %% Offline / Archived Experiments
+    subgraph Archived_Experiments ["Offline / Archived Experiments (Non-Production)"]
+        LoRAExp["Phase 8G LoRA Fine-Tuning<br/>(models/finetuned/checkpoint-best/)<br/>ARCHIVED: +8.15% Latency Overhead"]
+        CLIPComp["Phase 8B Model Comparison<br/>(OpenAI CLIP ViT-B/16: 86.67% vs SigLIP 2: 100%)"]
+        
+        LoRAExp -.Archived / Not Production.-> ModelSingleton
+        CLIPComp -.Comparative Baseline.-> ModelSingleton
+    end
 ```
 
 ---
 
 ## 2. Component Categorization & Operational Readiness
 
-To maintain scientific integrity and operational transparency, all repository subsystems are strictly classified into one of three tiers:
+To maintain scientific integrity and operational transparency, all repository subsystems are strictly categorized into operational tiers:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │ 1. IMPLEMENTED & PRODUCTION-ACTIVE                                     │
 │    - FastAPI backend API (/api/classify, /api/classify/batch)          │
-│    - Frozen SigLIP 2 zero-shot baseline adapter                        │
-│    - Image validation & multi-format preprocessing (JPEG/PNG/WEBP/RGBA)│
+│    - Frozen SigLIP 2 zero-shot baseline adapter (singleton)            │
+│    - Image validation & multi-format preprocessing (JPEG/PNG/WEBP/RGB) │
 │    - Deterministic Top-3 ranking with secondary taxonomy tie-break     │
 │    - Operating threshold uncertainty heuristics (score < 0.01, margin) │
 │    - Sequential batch classification (up to 20 images) with progress   │
@@ -65,20 +115,28 @@ To maintain scientific integrity and operational transparency, all repository su
                                     │
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
-│ 2. INFRASTRUCTURE & READINESS (NON-PRODUCTION)                         │
-│    - Detection readiness evaluators (backend/app/detection/)           │
-│    - Dataset preparation & stratification (backend/app/preparation/)   │
-│    - Automated dataset audit & non-leakage verification suites         │
-│    - Synthetic bounding-box guards (prohibiting fake annotations)      │
+│ 2. DATA & PROVENANCE LAYER (VERIFIED)                                  │
+│    - Supplied 150-image dataset (data/supplied_dataset/)               │
+│    - labels.csv and credits.csv (1:1 correspondence, Wikimedia Commons)│
+│    - Frozen 30-image held-out benchmark (data/held_out_dataset/)       │
+│    - Cryptographic manifest with SHA-256 hashes (0% data leakage)      │
 └────────────────────────────────────────────────────────────────────────┘
                                     │
                                     ▼
 ┌────────────────────────────────────────────────────────────────────────┐
 │ 3. EXPERIMENTAL & ARCHIVED (OFFLINE ONLY)                              │
 │    - Phase 8G LoRA fine-tuned checkpoint (models/finetuned/checkpoint) │
-│    - Model comparison framework (SigLIP 2 vs CLIP ViT-B/16)            │
+│    - Unmounted from production runtime due to +8.15% CPU latency       │
+│    - Model comparison framework (SigLIP 2 100% vs CLIP ViT-B/16 86.7%) │
 │    - Offline fine-tuning trainer & comparison reports                  │
-│    - 150-image human-in-the-loop taxonomy reconciliation manifests    │
+└────────────────────────────────────────────────────────────────────────┘
+                                    │
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│ 4. ADDITIVE BONUS CAPABILITY (PHASE 10)                                │
+│    - Grounding DINO open-vocabulary detector (POST /api/detect)        │
+│    - Isolated detection workspace with SVG bounding box overlay        │
+│    - Completely decoupled from core SigLIP 2 classification pipeline   │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
