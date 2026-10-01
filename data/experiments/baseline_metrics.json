@@ -1,0 +1,102 @@
+{
+  "model_name": "google/siglip2-base-patch16-512",
+  "is_finetuned": false,
+  "checkpoint_path": null,
+  "total_samples": 30,
+  "top1_accuracy": 1.0,
+  "top3_accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "avg_latency_ms": 1558.92,
+  "per_class_metrics": {
+    "Tank": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5.0
+    },
+    "Military Vehicle": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5.0
+    },
+    "Fighter Aircraft": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5.0
+    },
+    "Helicopter": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5.0
+    },
+    "Ship": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5.0
+    },
+    "Drone": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 5.0
+    }
+  },
+  "confusion_matrix": {
+    "Tank": {
+      "Tank": 5,
+      "Military Vehicle": 0,
+      "Fighter Aircraft": 0,
+      "Helicopter": 0,
+      "Ship": 0,
+      "Drone": 0
+    },
+    "Military Vehicle": {
+      "Tank": 0,
+      "Military Vehicle": 5,
+      "Fighter Aircraft": 0,
+      "Helicopter": 0,
+      "Ship": 0,
+      "Drone": 0
+    },
+    "Fighter Aircraft": {
+      "Tank": 0,
+      "Military Vehicle": 0,
+      "Fighter Aircraft": 5,
+      "Helicopter": 0,
+      "Ship": 0,
+      "Drone": 0
+    },
+    "Helicopter": {
+      "Tank": 0,
+      "Military Vehicle": 0,
+      "Fighter Aircraft": 0,
+      "Helicopter": 5,
+      "Ship": 0,
+      "Drone": 0
+    },
+    "Ship": {
+      "Tank": 0,
+      "Military Vehicle": 0,
+      "Fighter Aircraft": 0,
+      "Helicopter": 0,
+      "Ship": 5,
+      "Drone": 0
+    },
+    "Drone": {
+      "Tank": 0,
+      "Military Vehicle": 0,
+      "Fighter Aircraft": 0,
+      "Helicopter": 0,
+      "Ship": 0,
+      "Drone": 5
+    }
+  },
+  "failed_cases": [],
+  "evaluation_timestamp": "2026-09-30T19:41:12Z"
+}

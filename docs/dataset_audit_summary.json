@@ -1,0 +1,40 @@
+{
+  "dataset_root": "c:\\FILES\\astra-vision\\data\\supplied_dataset",
+  "total_images_on_disk": 150,
+  "total_labels_rows": 150,
+  "total_credits_rows": 150,
+  "category_counts": {
+    "aircraft": 30,
+    "drone": 30,
+    "helicopter": 30,
+    "military-vehicle": 30,
+    "naval": 30
+  },
+  "formats": {
+    "JPEG": 135,
+    "PNG": 15
+  },
+  "color_modes": {
+    "RGB": 116,
+    "RGBA": 9,
+    "L": 25
+  },
+  "corrupted_images_count": 0,
+  "exact_duplicates_count": 0,
+  "perceptual_duplicates_count": 0,
+  "exact_overlap_with_held_out": 0,
+  "perceptual_overlap_with_held_out": 0,
+  "licenses": {
+    "CC BY 4.0": 7,
+    "CC0": 13,
+    "CC BY-SA 4.0": 38,
+    "Public domain": 76,
+    "CC BY 2.0": 6,
+    "CC BY-SA 2.0": 3,
+    "CC BY-SA 3.0": 4,
+    "Attribution": 1,
+    "CC BY-SA 3.0 de": 1,
+    "No restrictions": 1
+  },
+  "detection_ready": false
+}

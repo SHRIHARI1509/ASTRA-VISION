@@ -1,0 +1,7 @@
+Ground Truth \ Predicted,Fighter Aircraft,Helicopter,Tank,Ship,Military Vehicle,Drone
+Fighter Aircraft,5,0,0,0,0,0
+Helicopter,0,5,0,0,0,0
+Tank,0,0,5,0,0,0
+Ship,0,0,0,5,0,0
+Military Vehicle,0,0,0,0,5,0
+Drone,0,0,0,0,0,5

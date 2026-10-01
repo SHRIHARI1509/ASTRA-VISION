@@ -1,0 +1,439 @@
+{
+  "total_images": 150,
+  "unambiguous_count": 90,
+  "ambiguous_count": 60,
+  "direct_mappings": {
+    "drone": "Drone",
+    "helicopter": "Helicopter",
+    "naval": "Ship"
+  },
+  "flagged_review_items": [
+    {
+      "file_name": "images/aircraft/001-F-22-Flaring-Cherry-Festival-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/002-GeoFS-F22-Raptor-png.png",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/003-GeoFS-FA18-Super-Hornet-png.png",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/004-HALTEDBFAeroindia2021-png.png",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/005-Havac-l-k-ve-Uzay-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/006-J50MOCKUP-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/007-MiG-29K-9-41-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/008-Mikoyan-Gurevich-MiG-21-2026-01-17-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/011-414th-Night-Fighter-Squadron-Bristol-Beaufighter-2-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/011-SGR-01-png.png",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/012-415th-Night-Fighter-Squadron-Bristol-Beaufighter-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/012-Su-47Zhukovsky-International-Airport-png.png",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/013-422d-Night-Fighter-Squadron-Douglas-A-20-Havoc-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/014-Beaufighter-Mk-VIF-X7579-night-fighter-prototype-with-centim.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/015-Bristol-Beaufighter-NAN15Dec43-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/016-Bundesarchiv-Bild-101I-667-7102A-06-Russland-Nachtj-ger-Junk.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/017-DH113-Vampire-NF54-MM6152-6571289565-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/018-Dornier-Do-217N-night-fighter-in-1945-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/019-F2H-2N-VC-4-on-cat-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/020-F2H-2N-VC-4-on-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/021-F3D-2-Skynight-of-VMF-N-513-maintenance-during-Korean-War-jp.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/022-F3D-2-VMFN-513-Kunsan-1953-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/023-F3D-2-VMFN-513-Kunsan-radar1-1953-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/024-F7F-3N-VMFN-513-Wonsan-1952-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/025-F7F-3N-XMas-1950-Korea-jpeg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/026-Foster-Mount-Avro504-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/027-G4M-J1N-67s-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/028-Most-numerous-fighter-jet-in-each-country-png.png",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Fighter Aircraft",
+      "rationale": "Identified as high-performance combat/fighter aircraft",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/029-Samoloty-mysliwskie-1945-73569716-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/aircraft/030-Vindkast-Mk-2E2-jpg.jpg",
+      "supplied_category": "aircraft",
+      "preliminary_hypothesis": "Other Aircraft (Non-Fighter)",
+      "rationale": "Transport, bomber, trainer, or general aviation",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/001-A-huge-motorized-Soviet-convoy-advances-across-the-Grand-Khi.png",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/003-Gunners-conduct-rearm-refuel-and-resupply-point-R3P-LPD-9822.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/004-HSTVL-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/005-Landsverk-L-60-at-Collins-Barracks-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/007-Object-184-3-T-72B3-RAE-2013-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Tank",
+      "rationale": "Identified as Main Battle Tank or tracked armor via visual/filename audit",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/011-AlfredPalmerM3tank1942b-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Tank",
+      "rationale": "Identified as Main Battle Tank or tracked armor via visual/filename audit",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/012-BMP-1-Zlot-Dar-owo-2009-JPG.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/013-Crew-of-a-Sherman-tank-south-of-Vaucelles-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Tank",
+      "rationale": "Identified as Main Battle Tank or tracked armor via visual/filename audit",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/014-Dutch-Panzerhaubitz-fires-in-Afghanistan-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Tank",
+      "rationale": "Identified as Main Battle Tank or tracked armor via visual/filename audit",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/016-2014-Stepanakert-Czo-g-T-72-01-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Tank",
+      "rationale": "Identified as Main Battle Tank or tracked armor via visual/filename audit",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/017-2014-Stepanakert-Czo-g-T-72-03-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Tank",
+      "rationale": "Identified as Main Battle Tank or tracked armor via visual/filename audit",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/020-At-Museo-Hist-rico-Militar-de-Canarias-2023-419-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/021-At-Museum-of-American-Armor-2024-087-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/022-At-Museum-of-American-Armor-2024-090-Tiger-I-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/023-At-Museum-of-American-Armor-2024-096-BA-64-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/023-Blijmoedig-den-vijand-tegemoet-Van-het-Werfkantoor-naar-de-L.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/024-At-Museum-of-American-Armor-2024-099-Tiger-I-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/024-T-84-478DU9-driver-station-interior-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/025-At-Museum-of-American-Armor-2024-106-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/025-T-84-478DU9-turret-composite-armor-cross-section-png.png",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/026-1-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/026-At-Museum-of-American-Armor-2024-107-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/027-At-Museum-of-American-Armor-2024-114-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/027-BAHNA-2018-026-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/028-BAHNA-2018-017-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/028-Belgrade-Military-Museum-PzKpfw-35-t-JPG.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/029-BAHNA-2018-023-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/029-Belgrade-Military-Museum-Renault-FT-17-JPG.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/030-BAHNA-2018-024-crop-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    },
+    {
+      "file_name": "images/military-vehicle/030-Brest-Fortress-T-44-2024-09-19-3744-jpg.jpg",
+      "supplied_category": "military-vehicle",
+      "preliminary_hypothesis": "Military Vehicle",
+      "rationale": "Wheeled transport, APC, IFV, or support vehicle",
+      "needs_manual_review": true
+    }
+  ],
+  "guardrail_status": "ACTIVE_PROTECTION",
+  "recommendations": [
+    "Do NOT perform automatic relabeling during Phase 8E/8F.",
+    "Retain supplied dataset files and categories strictly in their original state.",
+    "Review the 60 flagged images in 'data/splits/taxonomy_reconciliation.json' before Phase 8G.",
+    "Maintain held-out benchmark with its original 6 production classes."
+  ]
+}

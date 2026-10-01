@@ -1,0 +1,64 @@
+{
+  "status": "SUCCESS",
+  "total_epochs_completed": 3,
+  "best_epoch": 3,
+  "best_val_top1_acc": 0.9655,
+  "best_val_loss": 0.1663,
+  "total_training_duration_seconds": 1345.37,
+  "checkpoint_dir": "C:\\FILES\\astra-vision\\models\\finetuned\\checkpoint-best",
+  "config": {
+    "model_identifier": "google/siglip2-base-patch16-512",
+    "processor_identifier": "google/siglip2-base-patch16-512",
+    "learning_rate": 0.0001,
+    "batch_size": 4,
+    "gradient_accumulation_steps": 2,
+    "epochs": 3,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "random_seed": 42,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "image_resolution": 512,
+    "optimizer_name": "AdamW",
+    "scheduler_name": "linear_with_warmup",
+    "device": "cpu",
+    "early_stopping_patience": 2
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3997,
+      "train_top1_acc": 0.8609,
+      "val_loss": 0.1802,
+      "val_top1_acc": 0.931,
+      "val_top3_acc": 1.0,
+      "epoch_duration_seconds": 427.1,
+      "is_best_checkpoint": true
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2848,
+      "train_top1_acc": 0.9217,
+      "val_loss": 0.1675,
+      "val_top1_acc": 0.9655,
+      "val_top3_acc": 1.0,
+      "epoch_duration_seconds": 455.09,
+      "is_best_checkpoint": true
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.2491,
+      "train_top1_acc": 0.9304,
+      "val_loss": 0.1663,
+      "val_top1_acc": 0.9655,
+      "val_top3_acc": 1.0,
+      "epoch_duration_seconds": 453.46,
+      "is_best_checkpoint": true
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "split_name": "val",
+  "seed": 42,
+  "count": 30,
+  "items": [
+    {
+      "file_name": "images/aircraft/008-Mikoyan-Gurevich-MiG-21-2026-01-17-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/008-Mikoyan-Gurevich-MiG-21-2026-01-17-jpg.jpg",
+      "sha256": "628cb9120866f7d20b9b520c5e5ea60401b2410ef01da7c2a1e664b4c640fcdc"
+    },
+    {
+      "file_name": "images/aircraft/011-414th-Night-Fighter-Squadron-Bristol-Beaufighter-2-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/011-414th-Night-Fighter-Squadron-Bristol-Beaufighter-2-jpg.jpg",
+      "sha256": "d3b2630fb847fba43163049afbd402923bd96b83a1492a13c4080add5961d40a"
+    },
+    {
+      "file_name": "images/aircraft/024-F7F-3N-VMFN-513-Wonsan-1952-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/024-F7F-3N-VMFN-513-Wonsan-1952-jpg.jpg",
+      "sha256": "5c930f9c865b06f7a3df49ffe2c8e30c4d8002f2a2565a2c51670bef6873083b"
+    },
+    {
+      "file_name": "images/aircraft/001-F-22-Flaring-Cherry-Festival-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/001-F-22-Flaring-Cherry-Festival-jpg.jpg",
+      "sha256": "46e754c6bf34e3ae11aff0add13a8dfb72ece0e8d6e8d8088ec692ec7e73499c"
+    },
+    {
+      "file_name": "images/aircraft/004-HALTEDBFAeroindia2021-png.png",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/004-HALTEDBFAeroindia2021-png.png",
+      "sha256": "9482f7848092b68a58b246af70229390e5b292859d0fd72d3bfb7ccd944559e5"
+    },
+    {
+      "file_name": "images/aircraft/021-F3D-2-Skynight-of-VMF-N-513-maintenance-during-Korean-War-jp.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/021-F3D-2-Skynight-of-VMF-N-513-maintenance-during-Korean-War-jp.jpg",
+      "sha256": "dbd6a39227310125a8800c9ba54ebac16efb8e2893bf01dbba4647190e9467fd"
+    },
+    {
+      "file_name": "images/drone/007-A-drone-is-airborne-above-a-bright-yellow-building-in-a-resi.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/007-A-drone-is-airborne-above-a-bright-yellow-building-in-a-resi.jpg",
+      "sha256": "03bb50c2085166455ba1a2354e5e99491805f077470fd6f92de740da1e54439d"
+    },
+    {
+      "file_name": "images/drone/028-Concise-en-drone-01-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/028-Concise-en-drone-01-jpg.jpg",
+      "sha256": "423be83663ce6597d57d7d9e0cfcedde0a29e08bf55adf04e0524771b01927f8"
+    },
+    {
+      "file_name": "images/drone/002-22-B-Log-L-Aerom-vel-Drone-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/002-22-B-Log-L-Aerom-vel-Drone-jpg.jpg",
+      "sha256": "3b0973e5bffaf9779d2e30bc3c850fb4e6c3bce050c5106e525039c4e63203cc"
+    },
+    {
+      "file_name": "images/drone/028-Delaer-RX3-drawing-png.png",
+      "category": "drone",
+      "relative_path": "images/drone/028-Delaer-RX3-drawing-png.png",
+      "sha256": "c0fbd48fb60ecbbe53cece5a8a958cecdae99468173952873785a578c698ce53"
+    },
+    {
+      "file_name": "images/drone/012-Aerodyne-drone-1-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/012-Aerodyne-drone-1-jpg.jpg",
+      "sha256": "57d634b846ceb7babff6cdc1849d3515b02a8dd4956cfead0f218ecf2a5f685c"
+    },
+    {
+      "file_name": "images/drone/025-CDFP-Runway-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/025-CDFP-Runway-jpg.jpg",
+      "sha256": "dbe1615fb840610e263911ab8cc7743c0b3374a6102f6450df4b6fa34edfac6b"
+    },
+    {
+      "file_name": "images/helicopter/007-170708-N-WY954-210-cropped-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/007-170708-N-WY954-210-cropped-jpg.jpg",
+      "sha256": "6858d4d7dc9c338c8e5f7f8ac76292ff1bf89b0eafec7194adb12ed330e91540"
+    },
+    {
+      "file_name": "images/helicopter/019-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/019-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "sha256": "04aa516183ed3b52ca76119a4d01aaf87ccb9d379a052948013001b35421471b"
+    },
+    {
+      "file_name": "images/helicopter/012-36-AS-JGSDF-conduct-airdrops-over-Sendai-8583881-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/012-36-AS-JGSDF-conduct-airdrops-over-Sendai-8583881-jpg.jpg",
+      "sha256": "a7f51a431953d83114bef83ee60ab248c7cc388fc7f7033aee184a34dee2d023"
+    },
+    {
+      "file_name": "images/helicopter/020-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/020-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "sha256": "467c2df1b24e6af50828c92cae1e55f42d0e3f4d8ee069dbded35eba077e3985"
+    },
+    {
+      "file_name": "images/helicopter/021-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/021-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "sha256": "d1ce0869d749712045a2e29c03a095d300d03044ae87a66aa2323914a101dcd3"
+    },
+    {
+      "file_name": "images/helicopter/027-Exercise-Northern-Strike-2025-in-Michigan-August-2025-14-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/027-Exercise-Northern-Strike-2025-in-Michigan-August-2025-14-jpg.jpg",
+      "sha256": "bd45a1ec852486a4d10f17e0002fc7c79ad003a1eb5195d7d28140234b97ade9"
+    },
+    {
+      "file_name": "images/military-vehicle/027-At-Museum-of-American-Armor-2024-114-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/027-At-Museum-of-American-Armor-2024-114-jpg.jpg",
+      "sha256": "ff51cf6b32680ebaf71dbb069002bd049905afd3abc007064e7fe3a864c3546e"
+    },
+    {
+      "file_name": "images/military-vehicle/026-1-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/026-1-jpg.jpg",
+      "sha256": "0fb75ca2ad60e54e91e59eac311bc6322b47172d463632eb5a94bb84f29d8665"
+    },
+    {
+      "file_name": "images/military-vehicle/014-Dutch-Panzerhaubitz-fires-in-Afghanistan-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/014-Dutch-Panzerhaubitz-fires-in-Afghanistan-jpg.jpg",
+      "sha256": "a0db88d9725b89059ea3cc45ee2b3b3e223c1f2db4ce5dcc49973cc955b7dc13"
+    },
+    {
+      "file_name": "images/military-vehicle/021-At-Museum-of-American-Armor-2024-087-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/021-At-Museum-of-American-Armor-2024-087-jpg.jpg",
+      "sha256": "93448b422ef5dbd5c3d360061f909d6dccb6d9141453b58c5567b15b87a9cfff"
+    },
+    {
+      "file_name": "images/military-vehicle/023-At-Museum-of-American-Armor-2024-096-BA-64-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/023-At-Museum-of-American-Armor-2024-096-BA-64-jpg.jpg",
+      "sha256": "11ad02ebe58060d16a00d73b2b3ff3700ecb039c90d60e62cb803265b60227de"
+    },
+    {
+      "file_name": "images/military-vehicle/011-AlfredPalmerM3tank1942b-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/011-AlfredPalmerM3tank1942b-jpg.jpg",
+      "sha256": "d1b296dc3fdaf3fcdf1bc2a81cef90a2be320cd82e8c3c0ef68881169567034e"
+    },
+    {
+      "file_name": "images/naval/023-Governor-Milton-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/023-Governor-Milton-jpg.jpg",
+      "sha256": "e79aacaffa289cfff2001ec89770d16de92f84aa398f9a5154b53e46faf25954"
+    },
+    {
+      "file_name": "images/naval/032-Menatonon-YTB-254-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/032-Menatonon-YTB-254-jpg.jpg",
+      "sha256": "e7e9f8142e66a78279cf5aedbf2cb2edfd07998812d2798ac46d598817e09619"
+    },
+    {
+      "file_name": "images/naval/011-ARC-2-Neptune-cable-drums-below-deck-png.png",
+      "category": "naval",
+      "relative_path": "images/naval/011-ARC-2-Neptune-cable-drums-below-deck-png.png",
+      "sha256": "a1d7a8d197769129e85199503ca5c81a37285ebe5dea90ce51569fdeb2527571"
+    },
+    {
+      "file_name": "images/naval/030-McDougall-Duluthshipyard2-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/030-McDougall-Duluthshipyard2-jpg.jpg",
+      "sha256": "1d6f3214fe840e1c4a9e92cac88d773872339e7ca1c5c9181d3e91202092a2a6"
+    },
+    {
+      "file_name": "images/naval/022-General-Burnside-s-Expedition-Fort-Bartow-Roanoke-Island-aft.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/022-General-Burnside-s-Expedition-Fort-Bartow-Roanoke-Island-aft.jpg",
+      "sha256": "4a619d4f5bf02f41c06f992d40e0308044ea733d4a5f07fc9e4baf28268110c4"
+    },
+    {
+      "file_name": "images/naval/027-Little-Rebel-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/027-Little-Rebel-jpg.jpg",
+      "sha256": "463d9b7720a933218ee1db9ee2ed29be5115bedfd534c30c8b71f42bee98b6cc"
+    }
+  ]
+}

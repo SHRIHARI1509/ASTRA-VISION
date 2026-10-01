@@ -1,0 +1,39 @@
+{
+  "random_seed": 42,
+  "train_ratio": 0.8,
+  "val_ratio": 0.2,
+  "total_images_in_splits": 144,
+  "train_count": 115,
+  "val_count": 29,
+  "train_distribution": {
+    "Tank": 12,
+    "Military Vehicle": 12,
+    "Fighter Aircraft": 19,
+    "Helicopter": 24,
+    "Ship": 24,
+    "Drone": 24
+  },
+  "val_distribution": {
+    "Tank": 3,
+    "Military Vehicle": 3,
+    "Fighter Aircraft": 5,
+    "Helicopter": 6,
+    "Ship": 6,
+    "Drone": 6
+  },
+  "class_weights": {
+    "Tank": 1.5972,
+    "Military Vehicle": 1.5972,
+    "Fighter Aircraft": 1.0088,
+    "Helicopter": 0.7986,
+    "Ship": 0.7986,
+    "Drone": 0.7986
+  },
+  "held_out_leakage_detected": false,
+  "held_out_leakage_count": 0,
+  "manifest_paths": {
+    "train_manifest": "C:\\FILES\\astra-vision\\data\\experiments\\test_splits\\train_manifest.json",
+    "val_manifest": "C:\\FILES\\astra-vision\\data\\experiments\\test_splits\\val_manifest.json",
+    "balancing_report": "C:\\FILES\\astra-vision\\data\\experiments\\test_splits\\balancing_report.json"
+  }
+}

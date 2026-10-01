@@ -1,0 +1,1770 @@
+{
+  "phase": "8B",
+  "timestamp": "2026-09-30T17:06:43.023362+00:00",
+  "dataset": {
+    "name": "ASTRA VISION Held-Out Benchmark",
+    "path": "C:\\FILES\\astra-vision\\data\\held_out_dataset",
+    "images": 30,
+    "classes": 6,
+    "images_per_class": 5,
+    "taxonomy": [
+      "Tank",
+      "Drone",
+      "Fighter Aircraft",
+      "Military Vehicle",
+      "Ship",
+      "Helicopter"
+    ],
+    "reproducibility_seed": 42
+  },
+  "models": [
+    {
+      "name": "Google SigLIP 2 Base",
+      "identifier": "google/siglip2-base-patch16-512",
+      "device": "cpu",
+      "top1_accuracy": 1.0,
+      "top3_accuracy": 1.0,
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "per_class": {
+        "Tank": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Drone": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Fighter Aircraft": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Military Vehicle": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Ship": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Helicopter": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        }
+      },
+      "confusion_matrix": {
+        "classes": [
+          "Tank",
+          "Drone",
+          "Fighter Aircraft",
+          "Military Vehicle",
+          "Ship",
+          "Helicopter"
+        ],
+        "counts": [
+          [
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        "normalized": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "latency": {
+        "mean_ms": 1913.32,
+        "median_ms": 1600.33,
+        "total_wall_clock_s": 57.87,
+        "throughput_fps": 0.52
+      },
+      "per_sample": [
+        {
+          "id": "sample_0001",
+          "filename": "drone_01.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.0003,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.0003
+            },
+            {
+              "label": "Tank",
+              "score": 0.0
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 10710.67
+        },
+        {
+          "id": "sample_0002",
+          "filename": "drone_02.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.0008,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.0008
+            },
+            {
+              "label": "Tank",
+              "score": 0.0
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1599.78
+        },
+        {
+          "id": "sample_0003",
+          "filename": "drone_03.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.0003,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.0003
+            },
+            {
+              "label": "Tank",
+              "score": 0.0
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1575.73
+        },
+        {
+          "id": "sample_0004",
+          "filename": "drone_04.webp",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.0005,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.0005
+            },
+            {
+              "label": "Tank",
+              "score": 0.0
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1586.79
+        },
+        {
+          "id": "sample_0005",
+          "filename": "drone_05.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.0004,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.0004
+            },
+            {
+              "label": "Tank",
+              "score": 0.0
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1739.83
+        },
+        {
+          "id": "sample_0006",
+          "filename": "fighter_01.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.0957,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0957
+            },
+            {
+              "label": "Tank",
+              "score": 0.0001
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 1722.52
+        },
+        {
+          "id": "sample_0007",
+          "filename": "fighter_02.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.1662,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.1662
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0026
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0008
+            }
+          ],
+          "latency_ms": 1675.29
+        },
+        {
+          "id": "sample_0008",
+          "filename": "fighter_03.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.0414,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0414
+            },
+            {
+              "label": "Drone",
+              "score": 0.0001
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 1642.45
+        },
+        {
+          "id": "sample_0009",
+          "filename": "fighter_04.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.1261,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.1261
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0002
+            },
+            {
+              "label": "Drone",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 1601.9
+        },
+        {
+          "id": "sample_0010",
+          "filename": "fighter_05.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.1015,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.1015
+            },
+            {
+              "label": "Drone",
+              "score": 0.0014
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0005
+            }
+          ],
+          "latency_ms": 1601.04
+        },
+        {
+          "id": "sample_0011",
+          "filename": "helicopter_01.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.2817,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.2817
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0223
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0047
+            }
+          ],
+          "latency_ms": 1609.21
+        },
+        {
+          "id": "sample_0012",
+          "filename": "helicopter_02.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.2682,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.2682
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0093
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0081
+            }
+          ],
+          "latency_ms": 1606.46
+        },
+        {
+          "id": "sample_0013",
+          "filename": "helicopter_03.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.0583,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.0583
+            },
+            {
+              "label": "Drone",
+              "score": 0.0005
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0003
+            }
+          ],
+          "latency_ms": 1617.02
+        },
+        {
+          "id": "sample_0014",
+          "filename": "helicopter_04.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.4491,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.4491
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0082
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.007
+            }
+          ],
+          "latency_ms": 1616.11
+        },
+        {
+          "id": "sample_0015",
+          "filename": "helicopter_05.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.4474,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.4474
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0099
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0046
+            }
+          ],
+          "latency_ms": 1600.88
+        },
+        {
+          "id": "sample_0016",
+          "filename": "vehicle_01.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.0015,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.0015
+            },
+            {
+              "label": "Tank",
+              "score": 0.0001
+            },
+            {
+              "label": "Drone",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1570.83
+        },
+        {
+          "id": "sample_0017",
+          "filename": "vehicle_02.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.0044,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.0044
+            },
+            {
+              "label": "Tank",
+              "score": 0.0002
+            },
+            {
+              "label": "Drone",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1576.28
+        },
+        {
+          "id": "sample_0018",
+          "filename": "vehicle_03.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.0029,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.0029
+            },
+            {
+              "label": "Tank",
+              "score": 0.0001
+            },
+            {
+              "label": "Drone",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1648.96
+        },
+        {
+          "id": "sample_0019",
+          "filename": "vehicle_04.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.0012,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.0012
+            },
+            {
+              "label": "Tank",
+              "score": 0.0001
+            },
+            {
+              "label": "Drone",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1687.95
+        },
+        {
+          "id": "sample_0020",
+          "filename": "vehicle_05.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.0001,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.0001
+            },
+            {
+              "label": "Tank",
+              "score": 0.0
+            },
+            {
+              "label": "Drone",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1547.68
+        },
+        {
+          "id": "sample_0021",
+          "filename": "ship_01.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.0318,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.0318
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0005
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0002
+            }
+          ],
+          "latency_ms": 1597.89
+        },
+        {
+          "id": "sample_0022",
+          "filename": "ship_02.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.02,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.02
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0002
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 1592.14
+        },
+        {
+          "id": "sample_0023",
+          "filename": "ship_03.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.0304,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.0304
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0005
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0002
+            }
+          ],
+          "latency_ms": 1577.8
+        },
+        {
+          "id": "sample_0024",
+          "filename": "ship_04.png",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.0056,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.0056
+            },
+            {
+              "label": "Tank",
+              "score": 0.0007
+            },
+            {
+              "label": "Drone",
+              "score": 0.0
+            }
+          ],
+          "latency_ms": 1555.07
+        },
+        {
+          "id": "sample_0025",
+          "filename": "ship_05.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.0373,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.0373
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0007
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0003
+            }
+          ],
+          "latency_ms": 1589.5
+        },
+        {
+          "id": "sample_0026",
+          "filename": "tank_01.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.3873,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.3873
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0616
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0003
+            }
+          ],
+          "latency_ms": 1584.5
+        },
+        {
+          "id": "sample_0027",
+          "filename": "tank_02.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.2936,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.2936
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0578
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0002
+            }
+          ],
+          "latency_ms": 1578.04
+        },
+        {
+          "id": "sample_0028",
+          "filename": "tank_03.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.299,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.299
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0274
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 1592.07
+        },
+        {
+          "id": "sample_0029",
+          "filename": "tank_04.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.2959,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.2959
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0566
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0002
+            }
+          ],
+          "latency_ms": 1602.98
+        },
+        {
+          "id": "sample_0030",
+          "filename": "tank_05.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.4086,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.4086
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0299
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 1592.16
+        }
+      ]
+    },
+    {
+      "name": "OpenAI CLIP ViT-B/32",
+      "identifier": "openai/clip-vit-base-patch32",
+      "device": "cpu",
+      "top1_accuracy": 0.9333,
+      "top3_accuracy": 1.0,
+      "macro_precision": 0.9524,
+      "macro_recall": 0.9333,
+      "macro_f1": 0.9306,
+      "per_class": {
+        "Tank": {
+          "precision": 1.0,
+          "recall": 0.6,
+          "f1": 0.75,
+          "support": 5,
+          "correct": 3,
+          "incorrect": 2,
+          "false_positives": 0
+        },
+        "Drone": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Fighter Aircraft": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Military Vehicle": {
+          "precision": 0.7143,
+          "recall": 1.0,
+          "f1": 0.8333,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 2
+        },
+        "Ship": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        },
+        "Helicopter": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 5,
+          "correct": 5,
+          "incorrect": 0,
+          "false_positives": 0
+        }
+      },
+      "confusion_matrix": {
+        "classes": [
+          "Tank",
+          "Drone",
+          "Fighter Aircraft",
+          "Military Vehicle",
+          "Ship",
+          "Helicopter"
+        ],
+        "counts": [
+          [
+            3,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            5
+          ]
+        ],
+        "normalized": [
+          [
+            0.6,
+            0.0,
+            0.0,
+            0.4,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "latency": {
+        "mean_ms": 333.12,
+        "median_ms": 120.17,
+        "total_wall_clock_s": 10.32,
+        "throughput_fps": 2.91
+      },
+      "per_sample": [
+        {
+          "id": "sample_0001",
+          "filename": "drone_01.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.7759,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.7759
+            },
+            {
+              "label": "Ship",
+              "score": 0.1069
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0461
+            }
+          ],
+          "latency_ms": 6551.09
+        },
+        {
+          "id": "sample_0002",
+          "filename": "drone_02.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.6391,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.6391
+            },
+            {
+              "label": "Ship",
+              "score": 0.1744
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0686
+            }
+          ],
+          "latency_ms": 116.57
+        },
+        {
+          "id": "sample_0003",
+          "filename": "drone_03.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.8138,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.8138
+            },
+            {
+              "label": "Ship",
+              "score": 0.0951
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0403
+            }
+          ],
+          "latency_ms": 114.16
+        },
+        {
+          "id": "sample_0004",
+          "filename": "drone_04.webp",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.8001,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.8001
+            },
+            {
+              "label": "Ship",
+              "score": 0.0872
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0583
+            }
+          ],
+          "latency_ms": 110.94
+        },
+        {
+          "id": "sample_0005",
+          "filename": "drone_05.jpg",
+          "ground_truth": "Drone",
+          "predicted": "Drone",
+          "score": 0.8189,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Drone",
+              "score": 0.8189
+            },
+            {
+              "label": "Ship",
+              "score": 0.0792
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0423
+            }
+          ],
+          "latency_ms": 103.05
+        },
+        {
+          "id": "sample_0006",
+          "filename": "fighter_01.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.998,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.998
+            },
+            {
+              "label": "Drone",
+              "score": 0.0011
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0004
+            }
+          ],
+          "latency_ms": 131.01
+        },
+        {
+          "id": "sample_0007",
+          "filename": "fighter_02.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.9929,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.9929
+            },
+            {
+              "label": "Drone",
+              "score": 0.0058
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0008
+            }
+          ],
+          "latency_ms": 120.73
+        },
+        {
+          "id": "sample_0008",
+          "filename": "fighter_03.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.9991,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.9991
+            },
+            {
+              "label": "Drone",
+              "score": 0.0007
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 122.14
+        },
+        {
+          "id": "sample_0009",
+          "filename": "fighter_04.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.999,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.999
+            },
+            {
+              "label": "Drone",
+              "score": 0.0007
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0002
+            }
+          ],
+          "latency_ms": 127.3
+        },
+        {
+          "id": "sample_0010",
+          "filename": "fighter_05.jpg",
+          "ground_truth": "Fighter Aircraft",
+          "predicted": "Fighter Aircraft",
+          "score": 0.977,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.977
+            },
+            {
+              "label": "Drone",
+              "score": 0.0187
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0036
+            }
+          ],
+          "latency_ms": 130.48
+        },
+        {
+          "id": "sample_0011",
+          "filename": "helicopter_01.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.8787,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.8787
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0595
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0552
+            }
+          ],
+          "latency_ms": 116.64
+        },
+        {
+          "id": "sample_0012",
+          "filename": "helicopter_02.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.8501,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.8501
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0995
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0443
+            }
+          ],
+          "latency_ms": 126.08
+        },
+        {
+          "id": "sample_0013",
+          "filename": "helicopter_03.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.8123,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.8123
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.084
+            },
+            {
+              "label": "Drone",
+              "score": 0.071
+            }
+          ],
+          "latency_ms": 122.34
+        },
+        {
+          "id": "sample_0014",
+          "filename": "helicopter_04.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.8012,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.8012
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.1775
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0195
+            }
+          ],
+          "latency_ms": 117.7
+        },
+        {
+          "id": "sample_0015",
+          "filename": "helicopter_05.jpg",
+          "ground_truth": "Helicopter",
+          "predicted": "Helicopter",
+          "score": 0.8194,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Helicopter",
+              "score": 0.8194
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.133
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0427
+            }
+          ],
+          "latency_ms": 121.68
+        },
+        {
+          "id": "sample_0016",
+          "filename": "vehicle_01.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.9498,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.9498
+            },
+            {
+              "label": "Tank",
+              "score": 0.0471
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0012
+            }
+          ],
+          "latency_ms": 111.55
+        },
+        {
+          "id": "sample_0017",
+          "filename": "vehicle_02.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.9463,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.9463
+            },
+            {
+              "label": "Tank",
+              "score": 0.0492
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0016
+            }
+          ],
+          "latency_ms": 108.76
+        },
+        {
+          "id": "sample_0018",
+          "filename": "vehicle_03.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.984,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.984
+            },
+            {
+              "label": "Tank",
+              "score": 0.0152
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0003
+            }
+          ],
+          "latency_ms": 108.72
+        },
+        {
+          "id": "sample_0019",
+          "filename": "vehicle_04.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.9591,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.9591
+            },
+            {
+              "label": "Tank",
+              "score": 0.0393
+            },
+            {
+              "label": "Helicopter",
+              "score": 0.0006
+            }
+          ],
+          "latency_ms": 111.39
+        },
+        {
+          "id": "sample_0020",
+          "filename": "vehicle_05.jpg",
+          "ground_truth": "Military Vehicle",
+          "predicted": "Military Vehicle",
+          "score": 0.86,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.86
+            },
+            {
+              "label": "Tank",
+              "score": 0.109
+            },
+            {
+              "label": "Drone",
+              "score": 0.0154
+            }
+          ],
+          "latency_ms": 106.1
+        },
+        {
+          "id": "sample_0021",
+          "filename": "ship_01.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.9441,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.9441
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0277
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0239
+            }
+          ],
+          "latency_ms": 119.61
+        },
+        {
+          "id": "sample_0022",
+          "filename": "ship_02.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.9168,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.9168
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.057
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.022
+            }
+          ],
+          "latency_ms": 114.73
+        },
+        {
+          "id": "sample_0023",
+          "filename": "ship_03.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.9396,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.9396
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0282
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0263
+            }
+          ],
+          "latency_ms": 119.0
+        },
+        {
+          "id": "sample_0024",
+          "filename": "ship_04.png",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.947,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.947
+            },
+            {
+              "label": "Tank",
+              "score": 0.0405
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0064
+            }
+          ],
+          "latency_ms": 111.11
+        },
+        {
+          "id": "sample_0025",
+          "filename": "ship_05.jpg",
+          "ground_truth": "Ship",
+          "predicted": "Ship",
+          "score": 0.936,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Ship",
+              "score": 0.936
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0303
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0287
+            }
+          ],
+          "latency_ms": 125.56
+        },
+        {
+          "id": "sample_0026",
+          "filename": "tank_01.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Military Vehicle",
+          "score": 0.5639,
+          "is_correct": false,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.5639
+            },
+            {
+              "label": "Tank",
+              "score": 0.4345
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0009
+            }
+          ],
+          "latency_ms": 121.89
+        },
+        {
+          "id": "sample_0027",
+          "filename": "tank_02.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Military Vehicle",
+          "score": 0.5114,
+          "is_correct": false,
+          "top_3": [
+            {
+              "label": "Military Vehicle",
+              "score": 0.5114
+            },
+            {
+              "label": "Tank",
+              "score": 0.4581
+            },
+            {
+              "label": "Drone",
+              "score": 0.0217
+            }
+          ],
+          "latency_ms": 123.48
+        },
+        {
+          "id": "sample_0028",
+          "filename": "tank_03.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.959,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.959
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.0406
+            },
+            {
+              "label": "Drone",
+              "score": 0.0001
+            }
+          ],
+          "latency_ms": 125.8
+        },
+        {
+          "id": "sample_0029",
+          "filename": "tank_04.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.5929,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.5929
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.4039
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0029
+            }
+          ],
+          "latency_ms": 123.36
+        },
+        {
+          "id": "sample_0030",
+          "filename": "tank_05.jpg",
+          "ground_truth": "Tank",
+          "predicted": "Tank",
+          "score": 0.8681,
+          "is_correct": true,
+          "top_3": [
+            {
+              "label": "Tank",
+              "score": 0.8681
+            },
+            {
+              "label": "Military Vehicle",
+              "score": 0.1309
+            },
+            {
+              "label": "Fighter Aircraft",
+              "score": 0.0006
+            }
+          ],
+          "latency_ms": 130.64
+        }
+      ]
+    }
+  ]
+}

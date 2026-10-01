@@ -1,0 +1,84 @@
+{
+  "verdict": "COMPARABLE",
+  "verdict_rationale": "Fine-tuned model matched the baseline performance (Top-1: 1.0000 vs 1.0000).",
+  "production_recommendation": "Preserve existing pre-trained baseline as production classifier. Fine-tuning matched zero-shot generalization.",
+  "metrics_table": [
+    {
+      "metric_name": "Top-1 Accuracy",
+      "baseline_value": 1.0,
+      "finetuned_value": 1.0,
+      "delta": 0.0,
+      "interpretation": "Identical"
+    },
+    {
+      "metric_name": "Top-3 Accuracy",
+      "baseline_value": 1.0,
+      "finetuned_value": 1.0,
+      "delta": 0.0,
+      "interpretation": "Identical"
+    },
+    {
+      "metric_name": "Macro Precision",
+      "baseline_value": 1.0,
+      "finetuned_value": 1.0,
+      "delta": 0.0,
+      "interpretation": "Identical"
+    },
+    {
+      "metric_name": "Macro Recall",
+      "baseline_value": 1.0,
+      "finetuned_value": 1.0,
+      "delta": 0.0,
+      "interpretation": "Identical"
+    },
+    {
+      "metric_name": "Macro F1",
+      "baseline_value": 1.0,
+      "finetuned_value": 1.0,
+      "delta": 0.0,
+      "interpretation": "Identical"
+    },
+    {
+      "metric_name": "Latency (ms)",
+      "baseline_value": 1558.92,
+      "finetuned_value": 1686.07,
+      "delta": 127.15,
+      "interpretation": "Slower"
+    }
+  ],
+  "per_class_f1_comparison": {
+    "Tank": {
+      "baseline_f1": 1.0,
+      "finetuned_f1": 1.0,
+      "delta": 0.0
+    },
+    "Military Vehicle": {
+      "baseline_f1": 1.0,
+      "finetuned_f1": 1.0,
+      "delta": 0.0
+    },
+    "Fighter Aircraft": {
+      "baseline_f1": 1.0,
+      "finetuned_f1": 1.0,
+      "delta": 0.0
+    },
+    "Helicopter": {
+      "baseline_f1": 1.0,
+      "finetuned_f1": 1.0,
+      "delta": 0.0
+    },
+    "Ship": {
+      "baseline_f1": 1.0,
+      "finetuned_f1": 1.0,
+      "delta": 0.0
+    },
+    "Drone": {
+      "baseline_f1": 1.0,
+      "finetuned_f1": 1.0,
+      "delta": 0.0
+    }
+  },
+  "baseline_latency_ms": 1558.92,
+  "finetuned_latency_ms": 1686.07,
+  "latency_delta_ms": 127.15
+}

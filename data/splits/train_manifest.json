@@ -1,0 +1,727 @@
+{
+  "split_name": "train",
+  "seed": 42,
+  "count": 120,
+  "items": [
+    {
+      "file_name": "images/aircraft/020-F2H-2N-VC-4-on-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/020-F2H-2N-VC-4-on-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "sha256": "ad91f078cc3249685c06beff47d3a9214f311dd2df7072e9e398e85ff740a4f1"
+    },
+    {
+      "file_name": "images/aircraft/015-Bristol-Beaufighter-NAN15Dec43-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/015-Bristol-Beaufighter-NAN15Dec43-jpg.jpg",
+      "sha256": "02916d2835df63f3be59402d01bc273e684929178c73a3e2b6c37bd341ed5d08"
+    },
+    {
+      "file_name": "images/aircraft/012-415th-Night-Fighter-Squadron-Bristol-Beaufighter-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/012-415th-Night-Fighter-Squadron-Bristol-Beaufighter-jpg.jpg",
+      "sha256": "d92bc4784ed594030f9a6540a454b996d867a34908dbeb53a86c7f4a32e1f824"
+    },
+    {
+      "file_name": "images/aircraft/027-G4M-J1N-67s-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/027-G4M-J1N-67s-jpg.jpg",
+      "sha256": "40d05d6fb615033cc1b0b11cb9fd2bcc97680cd3d27327c7e692b4610d0e10ea"
+    },
+    {
+      "file_name": "images/aircraft/023-F3D-2-VMFN-513-Kunsan-radar1-1953-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/023-F3D-2-VMFN-513-Kunsan-radar1-1953-jpg.jpg",
+      "sha256": "fe6346d10d67df7a22591e0320316492b4165688e649f1c1b76ecbf5055aa400"
+    },
+    {
+      "file_name": "images/aircraft/007-MiG-29K-9-41-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/007-MiG-29K-9-41-jpg.jpg",
+      "sha256": "81e6ef43108f2b93b10d5dbe0949f4e355c3f5bedf6cb022020055d418c2398b"
+    },
+    {
+      "file_name": "images/aircraft/006-J50MOCKUP-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/006-J50MOCKUP-jpg.jpg",
+      "sha256": "8765f4dfff107eb6fa92be4f643242d4ec9be33090ae056c940d0e8a5d5a5c1b"
+    },
+    {
+      "file_name": "images/aircraft/013-422d-Night-Fighter-Squadron-Douglas-A-20-Havoc-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/013-422d-Night-Fighter-Squadron-Douglas-A-20-Havoc-jpg.jpg",
+      "sha256": "b7736aed5cbca404aafe9048bfdb5fccd74e2e028fc9058fd3dd6cb38396d23c"
+    },
+    {
+      "file_name": "images/aircraft/012-Su-47Zhukovsky-International-Airport-png.png",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/012-Su-47Zhukovsky-International-Airport-png.png",
+      "sha256": "bb773f6ffa2af4c53fbd77a406cc404993752cb272caf7f5c060289628dd2a33"
+    },
+    {
+      "file_name": "images/aircraft/016-Bundesarchiv-Bild-101I-667-7102A-06-Russland-Nachtj-ger-Junk.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/016-Bundesarchiv-Bild-101I-667-7102A-06-Russland-Nachtj-ger-Junk.jpg",
+      "sha256": "38f3e7bb2c91a0eb2c4178ec54bbf412fca1bb21ab636ab7924e9844c1afe1ee"
+    },
+    {
+      "file_name": "images/aircraft/011-SGR-01-png.png",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/011-SGR-01-png.png",
+      "sha256": "9083ed06cdba9a39db4b365c3cd312bc171ab734bec942568b0b10ebdd92b3af"
+    },
+    {
+      "file_name": "images/aircraft/026-Foster-Mount-Avro504-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/026-Foster-Mount-Avro504-jpg.jpg",
+      "sha256": "9264d6d73ddfd0ff746e43a6271fa1641118014f3faa8f5d73c7184738ff9be5"
+    },
+    {
+      "file_name": "images/aircraft/030-Vindkast-Mk-2E2-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/030-Vindkast-Mk-2E2-jpg.jpg",
+      "sha256": "f8d37e21bcaa3ea2cc2618ea5e9eff85d997ac2bc94a10eb215ab84e06725022"
+    },
+    {
+      "file_name": "images/aircraft/022-F3D-2-VMFN-513-Kunsan-1953-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/022-F3D-2-VMFN-513-Kunsan-1953-jpg.jpg",
+      "sha256": "b735478e11af3fa8c3cce563b8b48ce3deeb463f0311c618100de63653c2b841"
+    },
+    {
+      "file_name": "images/aircraft/017-DH113-Vampire-NF54-MM6152-6571289565-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/017-DH113-Vampire-NF54-MM6152-6571289565-jpg.jpg",
+      "sha256": "0220357052beac135345670f05b85023fa01a3cab05f6eaa0362cae14193af97"
+    },
+    {
+      "file_name": "images/aircraft/028-Most-numerous-fighter-jet-in-each-country-png.png",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/028-Most-numerous-fighter-jet-in-each-country-png.png",
+      "sha256": "be25c42e4ff429666dc4e5e5035db4f7eafa33dabcf09f561fd910299eed89c8"
+    },
+    {
+      "file_name": "images/aircraft/002-GeoFS-F22-Raptor-png.png",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/002-GeoFS-F22-Raptor-png.png",
+      "sha256": "c04d170194d07ea753f8fb1097d1b9cc9380791432ee3b6ac69375e45a62bb58"
+    },
+    {
+      "file_name": "images/aircraft/014-Beaufighter-Mk-VIF-X7579-night-fighter-prototype-with-centim.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/014-Beaufighter-Mk-VIF-X7579-night-fighter-prototype-with-centim.jpg",
+      "sha256": "8148c00133cedf44860c5b3cfbb5deb68dd46d605d76d0d99cd6b8114b1300ee"
+    },
+    {
+      "file_name": "images/aircraft/019-F2H-2N-VC-4-on-cat-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/019-F2H-2N-VC-4-on-cat-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "sha256": "8e91c5ba98e618a906f08b3179f638eb5c9417d8ce3babbaa0d858d4526188d8"
+    },
+    {
+      "file_name": "images/aircraft/003-GeoFS-FA18-Super-Hornet-png.png",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/003-GeoFS-FA18-Super-Hornet-png.png",
+      "sha256": "20106a88108d2905ddc412947c019534bb648b5a5b2a60144776c23234d791a4"
+    },
+    {
+      "file_name": "images/aircraft/018-Dornier-Do-217N-night-fighter-in-1945-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/018-Dornier-Do-217N-night-fighter-in-1945-jpg.jpg",
+      "sha256": "27f01d4b45e14a56b08fd398415d9da78ef7186ef027806dd94bf000b3e69dd4"
+    },
+    {
+      "file_name": "images/aircraft/029-Samoloty-mysliwskie-1945-73569716-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/029-Samoloty-mysliwskie-1945-73569716-jpg.jpg",
+      "sha256": "fe38154a9df84df21090df3901003b218f8e61fac5379adfeebfb488a1c8ec3f"
+    },
+    {
+      "file_name": "images/aircraft/005-Havac-l-k-ve-Uzay-jpg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/005-Havac-l-k-ve-Uzay-jpg.jpg",
+      "sha256": "3a273c43c034528112a4a3840771a908bb2f35c35e5f65fbab3fdbe385968577"
+    },
+    {
+      "file_name": "images/aircraft/025-F7F-3N-XMas-1950-Korea-jpeg.jpg",
+      "category": "aircraft",
+      "relative_path": "images/aircraft/025-F7F-3N-XMas-1950-Korea-jpeg.jpg",
+      "sha256": "6d2959fd514a4053e2f24c49e3eadb68f3eec684b443206247a81be65dd1e77e"
+    },
+    {
+      "file_name": "images/drone/022-CDFP-Windtunnel-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/022-CDFP-Windtunnel-jpg.jpg",
+      "sha256": "e64ee3be901be1d15dbe126197aca17633930e1c80ab0bbee0b398fc4a6d6ea6"
+    },
+    {
+      "file_name": "images/drone/027-D1L-Duck-drone-png.png",
+      "category": "drone",
+      "relative_path": "images/drone/027-D1L-Duck-drone-png.png",
+      "sha256": "74d51d403177592e2dbfdf747e949d181bf6af974d1628ff7a75a7cead9c4a23"
+    },
+    {
+      "file_name": "images/drone/023-CDRW-on-Runway-png.png",
+      "category": "drone",
+      "relative_path": "images/drone/023-CDRW-on-Runway-png.png",
+      "sha256": "0132108bcdf430110a4923f8e04f2dd84bb00f7b7cc3217596538088503b03d1"
+    },
+    {
+      "file_name": "images/drone/015-Am-Rand-des-Eises-Philipp-Egger-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/015-Am-Rand-des-Eises-Philipp-Egger-jpg.jpg",
+      "sha256": "fde3e39b8079350ebd52497ac9bad881ec1738e5f05a2a9434eabd9751a8db88"
+    },
+    {
+      "file_name": "images/drone/024-Aerial-shot-over-the-University-of-Otago-2024-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/024-Aerial-shot-over-the-University-of-Otago-2024-jpg.jpg",
+      "sha256": "a0a29be0bc51569840a477ecf9c8c81e6e21b4dfde33a240a6e694251d57bd7e"
+    },
+    {
+      "file_name": "images/drone/026-Cintami-agung-putra-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/026-Cintami-agung-putra-jpg.jpg",
+      "sha256": "47032a8080f7fc869ab013ead9f87ee61ea93fbc2cffbd9b0d5fadafe46e25bd"
+    },
+    {
+      "file_name": "images/drone/024-CenturaMunicipiuluiSatu-Mare-png.png",
+      "category": "drone",
+      "relative_path": "images/drone/024-CenturaMunicipiuluiSatu-Mare-png.png",
+      "sha256": "0cd3b7b0d83dfd846a24ff7688d00a2d3ea7e2632a45950177d48e6a53498823"
+    },
+    {
+      "file_name": "images/drone/010-A-team-of-technicians-prepares-for-the-inaugural-flight-of-a.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/010-A-team-of-technicians-prepares-for-the-inaugural-flight-of-a.jpg",
+      "sha256": "bba682a7574cd19fc722c6d37123d02908105ba65d2af30a9f009eb2ee334b03"
+    },
+    {
+      "file_name": "images/drone/029-Concise-en-drone-02-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/029-Concise-en-drone-02-jpg.jpg",
+      "sha256": "5b14e00da38a5b3fa63b300a352515b9c8d69cc5bbb35adb378494ac9dd8e281"
+    },
+    {
+      "file_name": "images/drone/025-CEREMONIA-MILITAR-DE-ENTREGA-DE-EQUIPAMIENTO-A-LAS-FUERZAS-A.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/025-CEREMONIA-MILITAR-DE-ENTREGA-DE-EQUIPAMIENTO-A-LAS-FUERZAS-A.jpg",
+      "sha256": "278e18cad70add12b97c6beddbc47b8f8b9bda19bef7e186212be72662ccf5e8"
+    },
+    {
+      "file_name": "images/drone/013-AI-Expo-2025-9100340-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/013-AI-Expo-2025-9100340-jpg.jpg",
+      "sha256": "67470ff17188c99d4243f756e1bddd009a0fd45a495ebf989835865748e353c9"
+    },
+    {
+      "file_name": "images/drone/016-Antigravity-A1-Drone-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/016-Antigravity-A1-Drone-jpg.jpg",
+      "sha256": "29c7c0fe3bbac0ddd97fdbf9c728adcc4f5fe0a64618eb028a62492b654c5926"
+    },
+    {
+      "file_name": "images/drone/029-Delivery-of-a-defibrillator-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/029-Delivery-of-a-defibrillator-jpg.jpg",
+      "sha256": "803bf58e19aff5fe9636ab3a96e2c9fa12eba79933f3da659de9c47dd2b2e64f"
+    },
+    {
+      "file_name": "images/drone/003-3D-Printed-Precision-U-S-Army-Leverages-FPV-and-Delivery-Dro.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/003-3D-Printed-Precision-U-S-Army-Leverages-FPV-and-Delivery-Dro.jpg",
+      "sha256": "a0876fabca0ea8229527b8e9013879e4f3652dde2dba6db8a1c0aaef766c054b"
+    },
+    {
+      "file_name": "images/drone/030-DHS-Secretary-Alejandro-Mayorkas-Departs-Panama-528-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/030-DHS-Secretary-Alejandro-Mayorkas-Departs-Panama-528-jpg.jpg",
+      "sha256": "67a0f0d11f2b184cb020e38b10ab45528af8eecd29ebff97972e5b8692cc943f"
+    },
+    {
+      "file_name": "images/drone/004-3D-Printed-Precision-U-S-Army-Leverages-FPV-and-Delivery-Dro.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/004-3D-Printed-Precision-U-S-Army-Leverages-FPV-and-Delivery-Dro.jpg",
+      "sha256": "f303c04a1b052eb789618871c0c36116ed8c8389537b4c1e37dd38bbeeeeb18c"
+    },
+    {
+      "file_name": "images/drone/005-A-drone-hovers-above-a-quiet-suburban-street-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/005-A-drone-hovers-above-a-quiet-suburban-street-jpg.jpg",
+      "sha256": "942ab15632096e949d85bcd6b3ff6163bc359cb3e09945eafec072c5438334f0"
+    },
+    {
+      "file_name": "images/drone/026-Customized-Industrial-Drones-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/026-Customized-Industrial-Drones-jpg.jpg",
+      "sha256": "68fb207d833e7d1cc8a1ca21feddfef8c357889a04812ab8b3628128321c1195"
+    },
+    {
+      "file_name": "images/drone/009-A-person-stands-on-a-sidewalk-using-a-drone-controller-to-na.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/009-A-person-stands-on-a-sidewalk-using-a-drone-controller-to-na.jpg",
+      "sha256": "374b4d7f356478d718f1131ba2b5c2b2915ee7bcbb7f9722ea11052149264540"
+    },
+    {
+      "file_name": "images/drone/006-A-drone-hovers-in-mid-air-while-an-individual-stands-nearby.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/006-A-drone-hovers-in-mid-air-while-an-individual-stands-nearby.jpg",
+      "sha256": "33530b9f49c06788b54a0bf87182a14cb050ab0ca5ab1b9041489152c1fee137"
+    },
+    {
+      "file_name": "images/drone/030-Craig-Milliard-Xwing-flight-test-manager-monitors-an-autonom.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/030-Craig-Milliard-Xwing-flight-test-manager-monitors-an-autonom.jpg",
+      "sha256": "bfc323995d05cc0509f9d55a36e8459aa454b9941e609045906d35275915534d"
+    },
+    {
+      "file_name": "images/drone/014-Albatroz-na-Drone-Show-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/014-Albatroz-na-Drone-Show-jpg.jpg",
+      "sha256": "8dca13218f533c2867b375d247ffda2559dd0876b4098bb93f871dd2aebda3fe"
+    },
+    {
+      "file_name": "images/drone/017-BETA-UAS-Omnibe-jpg.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/017-BETA-UAS-Omnibe-jpg.jpg",
+      "sha256": "deb036b3c52d6643756dced1b8acd80618180fdd802f669e084f3fe8b008dcc2"
+    },
+    {
+      "file_name": "images/drone/027-Close-up-of-a-drone-flying-with-people-in-a-blurry-backgroun.jpg",
+      "category": "drone",
+      "relative_path": "images/drone/027-Close-up-of-a-drone-flying-with-people-in-a-blurry-backgroun.jpg",
+      "sha256": "63f2b443a8664e5afe1522705e80a5a41a6347223a1785c43e97f097050b30a8"
+    },
+    {
+      "file_name": "images/helicopter/014-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/014-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "sha256": "a3c150ac4373718b123d9d505d4b0f8751499895cf9285c2c423ff3b62c8afa0"
+    },
+    {
+      "file_name": "images/helicopter/015-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/015-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "sha256": "0766ba05ea3d82de46ac95f107fb0dc5eba6694295da77e9584ddd99fcb25596"
+    },
+    {
+      "file_name": "images/helicopter/025-Defender-Europe-22-Multi-National-STX-7253528-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/025-Defender-Europe-22-Multi-National-STX-7253528-jpg.jpg",
+      "sha256": "e3d4e889b51b717739161c29ea3b0e9ea7467cf0f6dd9f8aa42c29013f08b8ff"
+    },
+    {
+      "file_name": "images/helicopter/022-Bulgariain-special-operations-forces-soldier-fastlines-durin.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/022-Bulgariain-special-operations-forces-soldier-fastlines-durin.jpg",
+      "sha256": "aea74886c99d9f76733fd2e4e8160d94c24714f7a33aec77dce295903eea3d3e"
+    },
+    {
+      "file_name": "images/helicopter/001-1-214th-General-Support-Aviation-Battalion-Aerial-Gunnery-Qu.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/001-1-214th-General-Support-Aviation-Battalion-Aerial-Gunnery-Qu.jpg",
+      "sha256": "6ffcc3501f9236291a87cea6f61b76ee93fffaec368550aded50f786e0043fae"
+    },
+    {
+      "file_name": "images/helicopter/016-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/016-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "sha256": "1887473dc1d7b899d3822276768cfd68ff30a15b79ed9debb445bffbf99b84fd"
+    },
+    {
+      "file_name": "images/helicopter/009-1st-CAB-and-NATO-eFP-Battle-Group-Latvia-Conducts-Joint-Forc.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/009-1st-CAB-and-NATO-eFP-Battle-Group-Latvia-Conducts-Joint-Forc.jpg",
+      "sha256": "34e2dbaf04bb45bd87cdb2e9e5ce4d16682ab51af0eae41510158d7ad4021819"
+    },
+    {
+      "file_name": "images/helicopter/017-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/017-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "sha256": "670e083307a0e18e52a98b94128491030658c7c2be9f30e7785a4c4266ae923b"
+    },
+    {
+      "file_name": "images/helicopter/028-Kalundborg-port-operation-for-DEFENDER-24-8360284-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/028-Kalundborg-port-operation-for-DEFENDER-24-8360284-jpg.jpg",
+      "sha256": "c711783a356592e4c916659076ec9080c05a7fd948e00ecffca8bbd0eb30718a"
+    },
+    {
+      "file_name": "images/helicopter/030-Saber-Junction-24-8617881-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/030-Saber-Junction-24-8617881-jpg.jpg",
+      "sha256": "daaa8d6ae096f9fed8f9b650f837d07388b3f7280b2e95f625956e86e52c1f02"
+    },
+    {
+      "file_name": "images/helicopter/026-European-Best-Sniper-Team-Competition-2024-8573682-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/026-European-Best-Sniper-Team-Competition-2024-8573682-jpg.jpg",
+      "sha256": "a93c0b9b53a20bf50ed63f77355279e6036ea9068468996bdd7591656ff7f041"
+    },
+    {
+      "file_name": "images/helicopter/006-130714-O-ZZ999-003-AU-9305239467-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/006-130714-O-ZZ999-003-AU-9305239467-jpg.jpg",
+      "sha256": "1ded0ba67ac2486c5c0d507dbddd0804f00b20e86285d1b74e7d94f6a2038d11"
+    },
+    {
+      "file_name": "images/helicopter/011-3-2-Soldiers-conduct-MEDEVAC-training-with-Polish-15th-MB-62.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/011-3-2-Soldiers-conduct-MEDEVAC-training-with-Polish-15th-MB-62.jpg",
+      "sha256": "dfe366e1a57840aa7a1c7d27d5fa2c269a413b49c4274f30a21f26c7f0efebd6"
+    },
+    {
+      "file_name": "images/helicopter/018-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/018-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "sha256": "5b8fa5488dfc9400442c15716c05a5d17779d66957a8265d733dfd760ace52e3"
+    },
+    {
+      "file_name": "images/helicopter/005-10th-SFG-A-during-Trojan-Footprint-24-8305914-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/005-10th-SFG-A-during-Trojan-Footprint-24-8305914-jpg.jpg",
+      "sha256": "53deb79119c30dff4cf0bfeff59086013e22a4b24605cdda74eeb561c08534ea"
+    },
+    {
+      "file_name": "images/helicopter/013-AFN-Bavaria-Tours-Hohenfels-Training-Area-7658304-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/013-AFN-Bavaria-Tours-Hohenfels-Training-Area-7658304-jpg.jpg",
+      "sha256": "2dc2c8f514edbe394122797cf1867b8951a569357fbad3ec4a1e881a1eb335b7"
+    },
+    {
+      "file_name": "images/helicopter/004-10th-SFG-A-during-Trojan-Footprint-24-8305901-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/004-10th-SFG-A-during-Trojan-Footprint-24-8305901-jpg.jpg",
+      "sha256": "1858f1c1cd440f8187d2eb1a797cbccbc7f77781718c99d8aeecc4de22415941"
+    },
+    {
+      "file_name": "images/helicopter/029-KFOR-RC-E-Aviation-conducts-multiship-training-6323039-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/029-KFOR-RC-E-Aviation-conducts-multiship-training-6323039-jpg.jpg",
+      "sha256": "9362300502e99943a23f955a1408d8fce65d4a2cc52080ee1e0dba03ab82ddc5"
+    },
+    {
+      "file_name": "images/helicopter/024-Danish-Sailors-Visit-USS-Wasp-LHD-1-8474793-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/024-Danish-Sailors-Visit-USS-Wasp-LHD-1-8474793-jpg.jpg",
+      "sha256": "b7375b005aaf5eef70b8d2d3f933281ce76014ee185c24e52c48d2b2254f385d"
+    },
+    {
+      "file_name": "images/helicopter/010-25th-Polish-Air-Cavalry-Brigade-Leader-Engagement-8428960-jp.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/010-25th-Polish-Air-Cavalry-Brigade-Leader-Engagement-8428960-jp.jpg",
+      "sha256": "abe310ba7959b2da7f3daa38766b5143ca1ece03e5d41394c60738b58bb4d375"
+    },
+    {
+      "file_name": "images/helicopter/008-1st-CAB-and-NATO-eFP-Battle-Group-Latvia-Conducts-Joint-Forc.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/008-1st-CAB-and-NATO-eFP-Battle-Group-Latvia-Conducts-Joint-Forc.jpg",
+      "sha256": "713f55c0aae05c68ecfb9e91cd8d505c8a22c697d6095ed119ff11b375b019d0"
+    },
+    {
+      "file_name": "images/helicopter/002-1-214th-General-Support-Aviation-Battalion-Aerial-Gunnery-Qu.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/002-1-214th-General-Support-Aviation-Battalion-Aerial-Gunnery-Qu.jpg",
+      "sha256": "4fe21b2c6b544335f1ae5ceed5a7dce45b76715002b9368797da3a95172c113a"
+    },
+    {
+      "file_name": "images/helicopter/003-10th-SFG-A-during-Trojan-Footprint-24-8305890-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/003-10th-SFG-A-during-Trojan-Footprint-24-8305890-jpg.jpg",
+      "sha256": "a19da634288202684636bd3ffcbc2839b97701234b701d4aa466d57590a369ef"
+    },
+    {
+      "file_name": "images/helicopter/023-CH-47-Chinook-Training-7348877-jpg.jpg",
+      "category": "helicopter",
+      "relative_path": "images/helicopter/023-CH-47-Chinook-Training-7348877-jpg.jpg",
+      "sha256": "c9b95f1ebc81fa6f074ab087ed5becf2400f101b5d891160c8818e0738190601"
+    },
+    {
+      "file_name": "images/military-vehicle/030-BAHNA-2018-024-crop-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/030-BAHNA-2018-024-crop-jpg.jpg",
+      "sha256": "aa404abab32991c3f2501017de5cec7e54972da40a4975be0d7579d87dd76f4a"
+    },
+    {
+      "file_name": "images/military-vehicle/029-BAHNA-2018-023-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/029-BAHNA-2018-023-jpg.jpg",
+      "sha256": "e3c5ae6e7eb4ff0c253ee384a8f8c6fbc4c2f546df1d639142bcd37965c4fc7e"
+    },
+    {
+      "file_name": "images/military-vehicle/001-A-huge-motorized-Soviet-convoy-advances-across-the-Grand-Khi.png",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/001-A-huge-motorized-Soviet-convoy-advances-across-the-Grand-Khi.png",
+      "sha256": "4cfa1fdb0a1208d1340e7f8a0440beb4703411b73a55d3a5984f574a8fd23f1d"
+    },
+    {
+      "file_name": "images/military-vehicle/004-HSTVL-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/004-HSTVL-jpg.jpg",
+      "sha256": "18daa0bfb74d4955e4c29c29446f5e2aaf528319c0e104d1df25ba42a1ea1fc1"
+    },
+    {
+      "file_name": "images/military-vehicle/022-At-Museum-of-American-Armor-2024-090-Tiger-I-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/022-At-Museum-of-American-Armor-2024-090-Tiger-I-jpg.jpg",
+      "sha256": "7f7cc891194ead34ab458774d270c1b1ff3b8397845dedcda443fc18bbc53ddf"
+    },
+    {
+      "file_name": "images/military-vehicle/020-At-Museo-Hist-rico-Militar-de-Canarias-2023-419-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/020-At-Museo-Hist-rico-Militar-de-Canarias-2023-419-jpg.jpg",
+      "sha256": "9d5d14fb9618dbfe4846488510aa0c2484f35ecb1c0bc3a78d818ec0b3445fc5"
+    },
+    {
+      "file_name": "images/military-vehicle/024-At-Museum-of-American-Armor-2024-099-Tiger-I-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/024-At-Museum-of-American-Armor-2024-099-Tiger-I-jpg.jpg",
+      "sha256": "79111600c7d9c91ed095ed0f2f362c557ff9d6549d8c558bf4c357a6ad5cb60e"
+    },
+    {
+      "file_name": "images/military-vehicle/012-BMP-1-Zlot-Dar-owo-2009-JPG.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/012-BMP-1-Zlot-Dar-owo-2009-JPG.jpg",
+      "sha256": "ff89e500d5f048c192d1ecba9ce90deebce708a6771efe07148b4b20795d72fb"
+    },
+    {
+      "file_name": "images/military-vehicle/025-At-Museum-of-American-Armor-2024-106-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/025-At-Museum-of-American-Armor-2024-106-jpg.jpg",
+      "sha256": "ac2f392266c16f754408a7ed1d3cefe1b593e4e996d90654a425e6af2adaf0b6"
+    },
+    {
+      "file_name": "images/military-vehicle/023-Blijmoedig-den-vijand-tegemoet-Van-het-Werfkantoor-naar-de-L.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/023-Blijmoedig-den-vijand-tegemoet-Van-het-Werfkantoor-naar-de-L.jpg",
+      "sha256": "5c09ac7670cff174616558bf939136e52ddfaea3cfe9e19bede6a5ba4eb7715c"
+    },
+    {
+      "file_name": "images/military-vehicle/030-Brest-Fortress-T-44-2024-09-19-3744-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/030-Brest-Fortress-T-44-2024-09-19-3744-jpg.jpg",
+      "sha256": "b558f88750fc49ce3e66c1054d1e5398680f4e844ae2ad39fc72859c908b2cd4"
+    },
+    {
+      "file_name": "images/military-vehicle/016-2014-Stepanakert-Czo-g-T-72-01-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/016-2014-Stepanakert-Czo-g-T-72-01-jpg.jpg",
+      "sha256": "46eb4644a3eeee778beda7aa7437a4ee812cf72909dad96c923c7237e4eafff5"
+    },
+    {
+      "file_name": "images/military-vehicle/005-Landsverk-L-60-at-Collins-Barracks-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/005-Landsverk-L-60-at-Collins-Barracks-jpg.jpg",
+      "sha256": "d1861e41856d66c87f014adc8ff8eaa5648c7640e5a610655af048f67b3dcec4"
+    },
+    {
+      "file_name": "images/military-vehicle/027-BAHNA-2018-026-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/027-BAHNA-2018-026-jpg.jpg",
+      "sha256": "50cc97fc2b2994765a1f52a60e19f7cf2456fd2f33ce8501e3fa642bbdb3ec93"
+    },
+    {
+      "file_name": "images/military-vehicle/007-Object-184-3-T-72B3-RAE-2013-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/007-Object-184-3-T-72B3-RAE-2013-jpg.jpg",
+      "sha256": "87a8a87e17b4b7795e2549698c5a1b7e4da53db70fa98603b1efbca23b977a0c"
+    },
+    {
+      "file_name": "images/military-vehicle/029-Belgrade-Military-Museum-Renault-FT-17-JPG.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/029-Belgrade-Military-Museum-Renault-FT-17-JPG.jpg",
+      "sha256": "ee9c750240a58633dcfdbbd6042dcbf4698ea0d6a389c749fa83905c4fa22717"
+    },
+    {
+      "file_name": "images/military-vehicle/028-Belgrade-Military-Museum-PzKpfw-35-t-JPG.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/028-Belgrade-Military-Museum-PzKpfw-35-t-JPG.jpg",
+      "sha256": "d591bf1e6ab43de3194509ba6bcdf2ddec541469c8a474cd26d6fec2637d71ce"
+    },
+    {
+      "file_name": "images/military-vehicle/025-T-84-478DU9-turret-composite-armor-cross-section-png.png",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/025-T-84-478DU9-turret-composite-armor-cross-section-png.png",
+      "sha256": "e298d43a1c8a8b19f86bf21c6e324ab06ccc517dd8146dfe3d4583637cb898df"
+    },
+    {
+      "file_name": "images/military-vehicle/028-BAHNA-2018-017-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/028-BAHNA-2018-017-jpg.jpg",
+      "sha256": "7bde2b57a466b7993cce5c32ffb1337847de58f3bb352cbdc6561b908ac67322"
+    },
+    {
+      "file_name": "images/military-vehicle/003-Gunners-conduct-rearm-refuel-and-resupply-point-R3P-LPD-9822.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/003-Gunners-conduct-rearm-refuel-and-resupply-point-R3P-LPD-9822.jpg",
+      "sha256": "c6681095ab61695841fafcdc8d8844b04e6faac18ef9ff1e9b519ae3d5a93104"
+    },
+    {
+      "file_name": "images/military-vehicle/017-2014-Stepanakert-Czo-g-T-72-03-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/017-2014-Stepanakert-Czo-g-T-72-03-jpg.jpg",
+      "sha256": "79f37bce9a22a31e2f86350e7d3f16519e2e813ee9755543bebdb2d314629dc8"
+    },
+    {
+      "file_name": "images/military-vehicle/026-At-Museum-of-American-Armor-2024-107-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/026-At-Museum-of-American-Armor-2024-107-jpg.jpg",
+      "sha256": "6b95b297c1c97274c644acabf21e0dd56715760960973fcb73afc14042d6673e"
+    },
+    {
+      "file_name": "images/military-vehicle/013-Crew-of-a-Sherman-tank-south-of-Vaucelles-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/013-Crew-of-a-Sherman-tank-south-of-Vaucelles-jpg.jpg",
+      "sha256": "a14ec4bf18035ad3552a878152395c020a9150593340faa7b96468834cd00ff9"
+    },
+    {
+      "file_name": "images/military-vehicle/024-T-84-478DU9-driver-station-interior-jpg.jpg",
+      "category": "military-vehicle",
+      "relative_path": "images/military-vehicle/024-T-84-478DU9-driver-station-interior-jpg.jpg",
+      "sha256": "4ec0f53261fc3f78963d053a4d03f947d499f62b6589e8f929fe579ed5f18439"
+    },
+    {
+      "file_name": "images/naval/028-Map-of-the-Site-of-Capture-of-Steamer-Bat-by-USS-Montgomery.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/028-Map-of-the-Site-of-Capture-of-Steamer-Bat-by-USS-Montgomery.jpg",
+      "sha256": "d034cb735c100565da13e12581c07fe8e9d0ccb1dc82552ea80d18390cd59e52"
+    },
+    {
+      "file_name": "images/naval/024-IJ-Afgesloten-foto-60-Jacob-Olie-max-res-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/024-IJ-Afgesloten-foto-60-Jacob-Olie-max-res-jpg.jpg",
+      "sha256": "e4d722fb8f4ea1194991a1c411b33c3928f78a680e609499f1321ee589026b23"
+    },
+    {
+      "file_name": "images/naval/012-ARC-2-Neptune-cable-drums-from-foredeck-png.png",
+      "category": "naval",
+      "relative_path": "images/naval/012-ARC-2-Neptune-cable-drums-from-foredeck-png.png",
+      "sha256": "6c2610e1b8033df2e7b6293012114ecdd465cb1f700ec28e0979aff59a72488a"
+    },
+    {
+      "file_name": "images/naval/008-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/008-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "sha256": "db96d50f6e11051af90d0e5ee55a58389f8156786015f3c47a28c286ef58b61d"
+    },
+    {
+      "file_name": "images/naval/026-LC-DIG-CWPB-03829-17115225447-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/026-LC-DIG-CWPB-03829-17115225447-jpg.jpg",
+      "sha256": "9741ab8c4c81604eda2bcfc89bb79254550d0e1d4f1c51b198d74f601eb2fa75"
+    },
+    {
+      "file_name": "images/naval/029-HMCS-St-Laurent-3rd-in-line-to-refuel-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/029-HMCS-St-Laurent-3rd-in-line-to-refuel-jpg.jpg",
+      "sha256": "52f86780853e8560f28c2059b73eba75708c9dbcc73285abc53481184c42f9d8"
+    },
+    {
+      "file_name": "images/naval/005-20151023-PRTN-2590P-027-2-22421009232-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/005-20151023-PRTN-2590P-027-2-22421009232-jpg.jpg",
+      "sha256": "005c2cae2fb2701718f5c4848bdf7717213f8be0d1f830de195009a6c6e31602"
+    },
+    {
+      "file_name": "images/naval/018-Deactivation-ceremony-for-Narwhal-TWR-842-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/018-Deactivation-ceremony-for-Narwhal-TWR-842-jpg.jpg",
+      "sha256": "a939f58c10aeac59be4dcc10a8804bdcd2f6a0d4985014c40064956c375f62a5"
+    },
+    {
+      "file_name": "images/naval/009-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/009-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "sha256": "eac4dfcbaf980932501e3c09d893b2447836fe7df3d36029ba2dabba20f0e759"
+    },
+    {
+      "file_name": "images/naval/025-E-B-Hale-and-Stars-Stripes-fitting-out-1861-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/025-E-B-Hale-and-Stars-Stripes-fitting-out-1861-jpg.jpg",
+      "sha256": "313b96edb0ebec140a9ca4dce6288cb25c7708d9a8242c2fb16246f9b71553e4"
+    },
+    {
+      "file_name": "images/naval/013-Atlantic-Fleet-1920-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/013-Atlantic-Fleet-1920-jpg.jpg",
+      "sha256": "641db1713fc7638d378fa40df8e2224db773f645938e260658eda891bffe6a6d"
+    },
+    {
+      "file_name": "images/naval/029-McDougall-Duluthshipyard-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/029-McDougall-Duluthshipyard-jpg.jpg",
+      "sha256": "9a0f775901373f0f863510cba216bce70ac7a3327cd9e15f5c5ffcc21db9e1fe"
+    },
+    {
+      "file_name": "images/naval/003-200-S-KWG-33-17796112674-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/003-200-S-KWG-33-17796112674-jpg.jpg",
+      "sha256": "88c79dd01bd7fcb940557a1090910045850d29abe34074796072551871931216"
+    },
+    {
+      "file_name": "images/naval/002-200-S-KWG-31-18392362796-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/002-200-S-KWG-31-18392362796-jpg.jpg",
+      "sha256": "796b465012f52fc90924c54f4a76581df163f1e1ffc297cb98cedd3b4d8b9f9a"
+    },
+    {
+      "file_name": "images/naval/025-IJ-Afgesloten-foto-61-Jacob-Olie-max-res-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/025-IJ-Afgesloten-foto-61-Jacob-Olie-max-res-jpg.jpg",
+      "sha256": "339495bcc45f347f65d36660f9dd49b671184ad995f6f8e55ddb7f579df7ffb3"
+    },
+    {
+      "file_name": "images/naval/004-200-S-KWG-35-18230940858-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/004-200-S-KWG-35-18230940858-jpg.jpg",
+      "sha256": "e5273ce92639c7b5ec378a29cee48c7e8d794737c17a8004e5e0bbb8b5716769"
+    },
+    {
+      "file_name": "images/naval/019-Capture-of-USS-Isaac-Smith-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/019-Capture-of-USS-Isaac-Smith-jpg.jpg",
+      "sha256": "c17fde3ce2f885488376682a663ac725b61e5518c911e4675c71f7cdd6f13906"
+    },
+    {
+      "file_name": "images/naval/020-CSA-cottonclads-rams-captures-United-States-Sloop-Morning-Li.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/020-CSA-cottonclads-rams-captures-United-States-Sloop-Morning-Li.jpg",
+      "sha256": "bf66ec1f76585a3a3ac9d0e78b5499df847db410f92194fa6ca80108a43bc2c6"
+    },
+    {
+      "file_name": "images/naval/006-A-CARINA-undersea-glider-is-prepared-for-launch-aboard-a-mul.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/006-A-CARINA-undersea-glider-is-prepared-for-launch-aboard-a-mul.jpg",
+      "sha256": "96a8a9ceac80b1cf04897640b4848461c159913c2586e729cf2eeb3a98b21b0d"
+    },
+    {
+      "file_name": "images/naval/010-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/010-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "sha256": "affa2928731d5bdf44ae52a3e46119e62a6c48849550d79a228b74918918aaf1"
+    },
+    {
+      "file_name": "images/naval/016-Christening-USS-Batfish-png.png",
+      "category": "naval",
+      "relative_path": "images/naval/016-Christening-USS-Batfish-png.png",
+      "sha256": "afc137edb5f9fff65cf29b6725840e34c821e0d9be373f6597cd74b26e4c7895"
+    },
+    {
+      "file_name": "images/naval/017-Giovanni-Bausan-and-fleet-in-Hudson-R-N-Y-14868394968-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/017-Giovanni-Bausan-and-fleet-in-Hudson-R-N-Y-14868394968-jpg.jpg",
+      "sha256": "3fd5831f865dea766bca82fddb8d2e611c3787d99983ca8f5cfeb4a204fdec65"
+    },
+    {
+      "file_name": "images/naval/028-Gunston-Hall-visits-Narvik-Norway-7157142-jpg.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/028-Gunston-Hall-visits-Narvik-Norway-7157142-jpg.jpg",
+      "sha256": "bc710bd8cb5d1854607b24e368b151502a3b5ae9af93ec2fc630490bf9e6c228"
+    },
+    {
+      "file_name": "images/naval/018-British-Vessels-captured-while-trying-to-run-the-Blockade-jp.jpg",
+      "category": "naval",
+      "relative_path": "images/naval/018-British-Vessels-captured-while-trying-to-run-the-Blockade-jp.jpg",
+      "sha256": "ba1e9c5adaebd48bb5ede09a496098f4552003d4b513f368aa558d1f029703dd"
+    }
+  ]
+}

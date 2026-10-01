@@ -1,0 +1,2266 @@
+{
+  "total_images_reviewed": 150,
+  "trainable_images_count": 144,
+  "excluded_images_count": 6,
+  "class_distribution": {
+    "Tank": 15,
+    "Military Vehicle": 15,
+    "Fighter Aircraft": 24,
+    "Helicopter": 30,
+    "Ship": 30,
+    "Drone": 30
+  },
+  "unresolved_count": 0,
+  "records": [
+    {
+      "image_id": "ASTRA-SUP-001",
+      "source_path": "images/aircraft/001-F-22-Flaring-Cherry-Festival-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F-22 Flaring Cherry Festival.jpg",
+        "artist": "Huntsmanleader",
+        "license": "CC BY 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F-22_Flaring_Cherry_Festival.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-002",
+      "source_path": "images/aircraft/002-GeoFS-F22-Raptor-png.png",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:GeoFS F22 Raptor.png",
+        "artist": "TODD ( GEOFS GUY )",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:GeoFS_F22_Raptor.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-003",
+      "source_path": "images/aircraft/003-GeoFS-FA18-Super-Hornet-png.png",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:GeoFS FA18 Super Hornet.png",
+        "artist": "TODD ( GEOFS GUY )",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:GeoFS_FA18_Super_Hornet.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-004",
+      "source_path": "images/aircraft/004-HALTEDBFAeroindia2021-png.png",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:HALTEDBFAeroindia2021.png",
+        "artist": "Josh097",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:HALTEDBFAeroindia2021.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-005",
+      "source_path": "images/aircraft/005-Havac-l-k-ve-Uzay-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Havac\u0131l\u0131k ve Uzay.jpg",
+        "artist": "Yusuf K\u00fc\u00e7\u00fck",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Havac%C4%B1l%C4%B1k_ve_Uzay.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-006",
+      "source_path": "images/aircraft/006-J50MOCKUP-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "EXCLUDED_OUT_OF_TAXONOMY",
+      "review_status": "REVIEWED_EXCLUDED",
+      "is_trainable": false,
+      "split": null,
+      "provenance": {
+        "source_title": "File:J50MOCKUP.jpg",
+        "artist": "Dan3031949",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:J50MOCKUP.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-007",
+      "source_path": "images/aircraft/007-MiG-29K-9-41-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:MiG-29K 9.41.jpg",
+        "artist": "Mariusz Wojciechowski",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:MiG-29K_9.41.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-008",
+      "source_path": "images/aircraft/008-Mikoyan-Gurevich-MiG-21-2026-01-17-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Mikoyan-Gurevich MiG-21 2026-01-17.jpg",
+        "artist": "Binary hex",
+        "license": "CC BY 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-21_2026-01-17.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-009",
+      "source_path": "images/aircraft/011-414th-Night-Fighter-Squadron-Bristol-Beaufighter-2-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:414th Night Fighter Squadron Bristol Beaufighter 2.jpg",
+        "artist": "United States Army Air Forces",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:414th_Night_Fighter_Squadron_Bristol_Beaufighter_2.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-010",
+      "source_path": "images/aircraft/011-SGR-01-png.png",
+      "original_label": "aircraft",
+      "final_label": "EXCLUDED_OUT_OF_TAXONOMY",
+      "review_status": "REVIEWED_EXCLUDED",
+      "is_trainable": false,
+      "split": null,
+      "provenance": {
+        "source_title": "File:SGR-01.png",
+        "artist": "Shubham G.Rathod",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:SGR-01.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-011",
+      "source_path": "images/aircraft/012-415th-Night-Fighter-Squadron-Bristol-Beaufighter-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:415th Night Fighter Squadron - Bristol Beaufighter.jpg",
+        "artist": "United States Army Air Forces",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:415th_Night_Fighter_Squadron_-_Bristol_Beaufighter.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-012",
+      "source_path": "images/aircraft/012-Su-47Zhukovsky-International-Airport-png.png",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Su-47Zhukovsky International Airport.png",
+        "artist": "Kalleeee21",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Su-47Zhukovsky_International_Airport.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-013",
+      "source_path": "images/aircraft/013-422d-Night-Fighter-Squadron-Douglas-A-20-Havoc-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:422d Night Fighter Squadron Douglas A-20 Havoc.jpg",
+        "artist": "United States Army Air Forces",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:422d_Night_Fighter_Squadron_Douglas_A-20_Havoc.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-014",
+      "source_path": "images/aircraft/014-Beaufighter-Mk-VIF-X7579-night-fighter-prototype-with-centim.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Beaufighter Mk VIF X7579 night fighter prototype with centimetric AI radar.jpg",
+        "artist": "RAF photographer",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Beaufighter_Mk_VIF_X7579_night_fighter_prototype_with_centimetric_AI_radar.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-015",
+      "source_path": "images/aircraft/015-Bristol-Beaufighter-NAN15Dec43-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Bristol Beaufighter NAN15Dec43.jpg",
+        "artist": "U.S. Navy",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bristol_Beaufighter_NAN15Dec43.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-016",
+      "source_path": "images/aircraft/016-Bundesarchiv-Bild-101I-667-7102A-06-Russland-Nachtj-ger-Junk.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Bundesarchiv Bild 101I-667-7102A-06, Russland, Nachtj\u00e4ger Junkers Ju 88.jpg",
+        "artist": "Volland",
+        "license": "CC BY-SA 3.0 de",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-667-7102A-06,_Russland,_Nachtj%C3%A4ger_Junkers_Ju_88.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-017",
+      "source_path": "images/aircraft/017-DH113-Vampire-NF54-MM6152-6571289565-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:DH113 Vampire NF54 MM6152 (6571289565).jpg",
+        "artist": "Alan Wilson",
+        "license": "CC BY-SA 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:DH113_Vampire_NF54_MM6152_(6571289565).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-018",
+      "source_path": "images/aircraft/018-Dornier-Do-217N-night-fighter-in-1945-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Dornier Do 217N night fighter in 1945.jpg",
+        "artist": "Jeremy C. Scutts",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Dornier_Do_217N_night_fighter_in_1945.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-019",
+      "source_path": "images/aircraft/019-F2H-2N-VC-4-on-cat-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F2H-2N VC-4 on cat USS FD Roosevelt (CVB-42) 1950.jpg",
+        "artist": "USN",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F2H-2N_VC-4_on_cat_USS_FD_Roosevelt_(CVB-42)_1950.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-020",
+      "source_path": "images/aircraft/020-F2H-2N-VC-4-on-USS-FD-Roosevelt-CVB-42-1950-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F2H-2N VC-4 on USS FD Roosevelt (CVB-42) 1950.jpg",
+        "artist": "USN",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F2H-2N_VC-4_on_USS_FD_Roosevelt_(CVB-42)_1950.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-021",
+      "source_path": "images/aircraft/021-F3D-2-Skynight-of-VMF-N-513-maintenance-during-Korean-War-jp.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F3D-2 Skynight of VMF(N)-513 maintenance during Korean War.jpg",
+        "artist": "USN",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F3D-2_Skynight_of_VMF(N)-513_maintenance_during_Korean_War.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-022",
+      "source_path": "images/aircraft/022-F3D-2-VMFN-513-Kunsan-1953-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F3D-2 VMFN-513 Kunsan 1953.jpg",
+        "artist": "USN",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F3D-2_VMFN-513_Kunsan_1953.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-023",
+      "source_path": "images/aircraft/023-F3D-2-VMFN-513-Kunsan-radar1-1953-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F3D-2 VMFN-513 Kunsan radar1 1953.jpg",
+        "artist": "USN",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F3D-2_VMFN-513_Kunsan_radar1_1953.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-024",
+      "source_path": "images/aircraft/024-F7F-3N-VMFN-513-Wonsan-1952-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F7F-3N VMFN-513 Wonsan 1952.jpg",
+        "artist": "USN",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F7F-3N_VMFN-513_Wonsan_1952.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-025",
+      "source_path": "images/aircraft/025-F7F-3N-XMas-1950-Korea-jpeg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:F7F-3N XMas 1950 Korea.jpeg",
+        "artist": "Camera Operator: MSgt. Charles D. Prindle, USMC",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:F7F-3N_XMas_1950_Korea.jpeg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-026",
+      "source_path": "images/aircraft/026-Foster-Mount-Avro504-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "EXCLUDED_OUT_OF_TAXONOMY",
+      "review_status": "REVIEWED_EXCLUDED",
+      "is_trainable": false,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Foster Mount Avro504.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Foster_Mount_Avro504.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-027",
+      "source_path": "images/aircraft/027-G4M-J1N-67s-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "Fighter Aircraft",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:G4M-J1N-67s.jpg",
+        "artist": "unknown",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:G4M-J1N-67s.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-028",
+      "source_path": "images/aircraft/028-Most-numerous-fighter-jet-in-each-country-png.png",
+      "original_label": "aircraft",
+      "final_label": "EXCLUDED_OUT_OF_TAXONOMY",
+      "review_status": "REVIEWED_EXCLUDED",
+      "is_trainable": false,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Most numerous fighter jet in each country.png",
+        "artist": "Map Chart",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Most_numerous_fighter_jet_in_each_country.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-029",
+      "source_path": "images/aircraft/029-Samoloty-mysliwskie-1945-73569716-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "EXCLUDED_OUT_OF_TAXONOMY",
+      "review_status": "REVIEWED_EXCLUDED",
+      "is_trainable": false,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Samoloty mysliwskie. 1945 (73569716).jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Samoloty_mysliwskie._1945_(73569716).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-030",
+      "source_path": "images/aircraft/030-Vindkast-Mk-2E2-jpg.jpg",
+      "original_label": "aircraft",
+      "final_label": "EXCLUDED_OUT_OF_TAXONOMY",
+      "review_status": "REVIEWED_EXCLUDED",
+      "is_trainable": false,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Vindkast Mk.2E2.jpg",
+        "artist": "SgtRL-3",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Vindkast_Mk.2E2.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-031",
+      "source_path": "images/drone/002-22-B-Log-L-Aerom-vel-Drone-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:22\u00ba B Log L - Aerom\u00f3vel - Drone.jpg",
+        "artist": "22\u00ba B Log L",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:22%C2%BA_B_Log_L_-_Aerom%C3%B3vel_-_Drone.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-032",
+      "source_path": "images/drone/003-3D-Printed-Precision-U-S-Army-Leverages-FPV-and-Delivery-Dro.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:3D Printed Precision- U S Army Leverages FPV and Delivery Drones During Agile Spirit 25 (9234077).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. 1st Class Brittany Conley",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:3D_Printed_Precision-_U_S_Army_Leverages_FPV_and_Delivery_Drones_During_Agile_Spirit_25_(9234077).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-033",
+      "source_path": "images/drone/004-3D-Printed-Precision-U-S-Army-Leverages-FPV-and-Delivery-Dro.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:3D Printed Precision- U S Army Leverages FPV and Delivery Drones During Agile Spirit 25 (9234078).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. 1st Class Brittany Conley",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:3D_Printed_Precision-_U_S_Army_Leverages_FPV_and_Delivery_Drones_During_Agile_Spirit_25_(9234078).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-034",
+      "source_path": "images/drone/005-A-drone-hovers-above-a-quiet-suburban-street-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:A drone hovers above a quiet suburban street.jpg",
+        "artist": "Shixart1985",
+        "license": "CC BY 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_drone_hovers_above_a_quiet_suburban_street.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-035",
+      "source_path": "images/drone/006-A-drone-hovers-in-mid-air-while-an-individual-stands-nearby.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:A drone hovers in mid-air while an individual stands nearby, skillfully controlling it with a remote.jpg",
+        "artist": "Shixart1985",
+        "license": "CC BY 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_drone_hovers_in_mid-air_while_an_individual_stands_nearby,_skillfully_controlling_it_with_a_remote.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-036",
+      "source_path": "images/drone/007-A-drone-is-airborne-above-a-bright-yellow-building-in-a-resi.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:A drone is airborne above a bright yellow building in a residential neighborhood.jpg",
+        "artist": "Shixart1985",
+        "license": "CC BY 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_drone_is_airborne_above_a_bright_yellow_building_in_a_residential_neighborhood.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-037",
+      "source_path": "images/drone/009-A-person-stands-on-a-sidewalk-using-a-drone-controller-to-na.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:A person stands on a sidewalk, using a drone controller to navigate their device.jpg",
+        "artist": "Shixart1985",
+        "license": "CC BY 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_person_stands_on_a_sidewalk,_using_a_drone_controller_to_navigate_their_device.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-038",
+      "source_path": "images/drone/010-A-team-of-technicians-prepares-for-the-inaugural-flight-of-a.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:A team of technicians prepares for the inaugural flight of an Unmanned-Unarmed Aerial Vehicles (UAV) in Goma, North Kivu province (11189522286)-1~4.jpg",
+        "artist": "MONUSCO/Sylvain Liechti",
+        "license": "CC BY-SA 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_team_of_technicians_prepares_for_the_inaugural_flight_of_an_Unmanned-Unarmed_Aerial_Vehicles_(UAV)_in_Goma,_North_Kivu_province_(11189522286)-1~4.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-039",
+      "source_path": "images/drone/012-Aerodyne-drone-1-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Aerodyne drone 1.jpg",
+        "artist": "Kistara",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Aerodyne_drone_1.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-040",
+      "source_path": "images/drone/013-AI-Expo-2025-9100340-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:AI+ Expo 2025 (9100340).jpg",
+        "artist": "U.S. Marine Corps photo by Sgt. Matthew Romonoyske-Bean",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:AI%2B_Expo_2025_(9100340).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-041",
+      "source_path": "images/drone/014-Albatroz-na-Drone-Show-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Albatroz na Drone Show.jpg",
+        "artist": "VitorAquino334",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Albatroz_na_Drone_Show.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-042",
+      "source_path": "images/drone/015-Am-Rand-des-Eises-Philipp-Egger-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Am Rand des Eises - Philipp Egger.jpg",
+        "artist": "Philipp Egger",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Am_Rand_des_Eises_-_Philipp_Egger.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-043",
+      "source_path": "images/drone/016-Antigravity-A1-Drone-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Antigravity A1 Drone.jpg",
+        "artist": "TaurusEmerald",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Antigravity_A1_Drone.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-044",
+      "source_path": "images/drone/017-BETA-UAS-Omnibe-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:BETA UAS Omnibe.jpg",
+        "artist": "E. I. Dinazar",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:BETA_UAS_Omnibe.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-045",
+      "source_path": "images/drone/022-CDFP-Windtunnel-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:CDFP Windtunnel.jpg",
+        "artist": "Kumar Neetesh",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:CDFP_Windtunnel.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-046",
+      "source_path": "images/drone/023-CDRW-on-Runway-png.png",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:CDRW on Runway.png",
+        "artist": "Kumar Neetesh",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:CDRW_on_Runway.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-047",
+      "source_path": "images/drone/024-Aerial-shot-over-the-University-of-Otago-2024-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Aerial shot over the University of Otago 2024.jpg",
+        "artist": "ArtNewNZ",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Aerial_shot_over_the_University_of_Otago_2024.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-048",
+      "source_path": "images/drone/024-CenturaMunicipiuluiSatu-Mare-png.png",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:CenturaMunicipiuluiSatu Mare.png",
+        "artist": "VargaAlex005",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:CenturaMunicipiuluiSatu_Mare.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-049",
+      "source_path": "images/drone/025-CDFP-Runway-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:CDFP Runway.jpg",
+        "artist": "Kumar Neetesh",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:CDFP_Runway.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-050",
+      "source_path": "images/drone/025-CEREMONIA-MILITAR-DE-ENTREGA-DE-EQUIPAMIENTO-A-LAS-FUERZAS-A.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:CEREMONIA MILITAR DE ENTREGA DE EQUIPAMIENTO A LAS FUERZAS ARMADAS, QUITO 16 DE DICIEMBRE DE 2025. - 54987360467.jpg",
+        "artist": "Presidencia de la Rep\u00fablica del Ecuador",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:CEREMONIA_MILITAR_DE_ENTREGA_DE_EQUIPAMIENTO_A_LAS_FUERZAS_ARMADAS,_QUITO_16_DE_DICIEMBRE_DE_2025._-_54987360467.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-051",
+      "source_path": "images/drone/026-Cintami-agung-putra-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Cintami agung putra.jpg",
+        "artist": "Agungputra90",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cintami_agung_putra.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-052",
+      "source_path": "images/drone/026-Customized-Industrial-Drones-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Customized Industrial Drones.jpg",
+        "artist": "Dineshvdh",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Customized_Industrial_Drones.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-053",
+      "source_path": "images/drone/027-Close-up-of-a-drone-flying-with-people-in-a-blurry-backgroun.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Close-up of a drone flying with people in a blurry background.jpg",
+        "artist": "Shixart1985",
+        "license": "CC BY 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Close-up_of_a_drone_flying_with_people_in_a_blurry_background.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-054",
+      "source_path": "images/drone/027-D1L-Duck-drone-png.png",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:D1L Duck drone.png",
+        "artist": "Wikideas1",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:D1L_Duck_drone.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-055",
+      "source_path": "images/drone/028-Concise-en-drone-01-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Concise en drone 01.jpg",
+        "artist": "Pablodbds",
+        "license": "CC BY 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Concise_en_drone_01.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-056",
+      "source_path": "images/drone/028-Delaer-RX3-drawing-png.png",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Delaer-RX3 drawing.png",
+        "artist": "Kompikos",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Delaer-RX3_drawing.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-057",
+      "source_path": "images/drone/029-Concise-en-drone-02-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Concise en drone 02.jpg",
+        "artist": "Pablodbds",
+        "license": "CC BY 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Concise_en_drone_02.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-058",
+      "source_path": "images/drone/029-Delivery-of-a-defibrillator-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Delivery of a defibrillator.jpg",
+        "artist": "M. Hohenthal",
+        "license": "CC BY 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Delivery_of_a_defibrillator.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-059",
+      "source_path": "images/drone/030-Craig-Milliard-Xwing-flight-test-manager-monitors-an-autonom.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Craig Milliard, Xwing flight test manager, monitors an autonomous flight from the Xwing ground control station at McClellan Airfield in Sacramento, California, January 26, 2024.jpg",
+        "artist": "Matthew Clouse",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Craig_Milliard,_Xwing_flight_test_manager,_monitors_an_autonomous_flight_from_the_Xwing_ground_control_station_at_McClellan_Airfield_in_Sacramento,_California,_January_26,_2024.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-060",
+      "source_path": "images/drone/030-DHS-Secretary-Alejandro-Mayorkas-Departs-Panama-528-jpg.jpg",
+      "original_label": "drone",
+      "final_label": "Drone",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:DHS Secretary Alejandro Mayorkas Departs Panama - 528.jpg",
+        "artist": "DHSgov",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:DHS_Secretary_Alejandro_Mayorkas_Departs_Panama_-_528.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-061",
+      "source_path": "images/helicopter/001-1-214th-General-Support-Aviation-Battalion-Aerial-Gunnery-Qu.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:1-214th General Support Aviation Battalion Aerial Gunnery Qualification And Medical Evacuation Training (7148971).jpg",
+        "artist": "U.S. Army TSAE by Michele Wiencek",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:1-214th_General_Support_Aviation_Battalion_Aerial_Gunnery_Qualification_And_Medical_Evacuation_Training_(7148971).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-062",
+      "source_path": "images/helicopter/002-1-214th-General-Support-Aviation-Battalion-Aerial-Gunnery-Qu.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:1-214th General Support Aviation Battalion Aerial Gunnery Qualification And Medical Evacuation Training (7148972).jpg",
+        "artist": "U.S. Army TSAE by Michele Wiencek",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:1-214th_General_Support_Aviation_Battalion_Aerial_Gunnery_Qualification_And_Medical_Evacuation_Training_(7148972).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-063",
+      "source_path": "images/helicopter/003-10th-SFG-A-during-Trojan-Footprint-24-8305890-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:10th SFG (A) during Trojan Footprint 24 (8305890).jpg",
+        "artist": "U.S. Army photo by Staff Sgt. Evan Cooper",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:10th_SFG_(A)_during_Trojan_Footprint_24_(8305890).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-064",
+      "source_path": "images/helicopter/004-10th-SFG-A-during-Trojan-Footprint-24-8305901-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:10th SFG (A) during Trojan Footprint 24 (8305901).jpg",
+        "artist": "U.S. Army photo by Staff Sgt. Evan Cooper",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:10th_SFG_(A)_during_Trojan_Footprint_24_(8305901).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-065",
+      "source_path": "images/helicopter/005-10th-SFG-A-during-Trojan-Footprint-24-8305914-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:10th SFG (A) during Trojan Footprint 24 (8305914).jpg",
+        "artist": "U.S. Army photo by Staff Sgt. Evan Cooper",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:10th_SFG_(A)_during_Trojan_Footprint_24_(8305914).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-066",
+      "source_path": "images/helicopter/006-130714-O-ZZ999-003-AU-9305239467-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:130714-O-ZZ999-003-AU (9305239467).jpg",
+        "artist": "U.S. Department of Defense Current Photos",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:130714-O-ZZ999-003-AU_(9305239467).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-067",
+      "source_path": "images/helicopter/007-170708-N-WY954-210-cropped-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:170708-N-WY954-210 (cropped).jpg",
+        "artist": "Petty Officer 2nd Class Robin Peak",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:170708-N-WY954-210_(cropped).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-068",
+      "source_path": "images/helicopter/008-1st-CAB-and-NATO-eFP-Battle-Group-Latvia-Conducts-Joint-Forc.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:1st CAB and NATO eFP Battle Group-Latvia Conducts Joint Force Exercise (6607104).jpg",
+        "artist": "U.S. Army CAB-1ID by Capt. Billy Lacroix",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:1st_CAB_and_NATO_eFP_Battle_Group-Latvia_Conducts_Joint_Force_Exercise_(6607104).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-069",
+      "source_path": "images/helicopter/009-1st-CAB-and-NATO-eFP-Battle-Group-Latvia-Conducts-Joint-Forc.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:1st CAB and NATO eFP Battle Group-Latvia Conducts Joint Force Exercise (6607106).jpg",
+        "artist": "U.S. Army CAB-1ID by Capt. Billy Lacroix",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:1st_CAB_and_NATO_eFP_Battle_Group-Latvia_Conducts_Joint_Force_Exercise_(6607106).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-070",
+      "source_path": "images/helicopter/010-25th-Polish-Air-Cavalry-Brigade-Leader-Engagement-8428960-jp.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:25th (Polish) Air Cavalry Brigade Leader Engagement (8428960).jpg",
+        "artist": "U.S. Army CAB-1ID by Capt. Jordan Beagle",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:25th_(Polish)_Air_Cavalry_Brigade_Leader_Engagement_(8428960).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-071",
+      "source_path": "images/helicopter/011-3-2-Soldiers-conduct-MEDEVAC-training-with-Polish-15th-MB-62.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:3-2 Soldiers conduct MEDEVAC training with Polish 15th MB (6252181).jpg",
+        "artist": "U.S. Army photo by Cpl. Justin Stafford",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:3-2_Soldiers_conduct_MEDEVAC_training_with_Polish_15th_MB_(6252181).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-072",
+      "source_path": "images/helicopter/012-36-AS-JGSDF-conduct-airdrops-over-Sendai-8583881-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:36 AS, JGSDF conduct airdrops over Sendai (8583881).jpg",
+        "artist": "U.S. Air Force photo by Senior Airman Jacob Wood",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:36_AS,_JGSDF_conduct_airdrops_over_Sendai_(8583881).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-073",
+      "source_path": "images/helicopter/013-AFN-Bavaria-Tours-Hohenfels-Training-Area-7658304-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:AFN Bavaria Tours Hohenfels Training Area (7658304).jpg",
+        "artist": "U.S. Army photo by Spc. Emma Roberts",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:AFN_Bavaria_Tours_Hohenfels_Training_Area_(7658304).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-074",
+      "source_path": "images/helicopter/014-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation and Allied Partners Conduct Media Day in Finland (7357106).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_and_Allied_Partners_Conduct_Media_Day_in_Finland_(7357106).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-075",
+      "source_path": "images/helicopter/015-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation and Allied Partners Conduct Media Day in Finland (7357107).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_and_Allied_Partners_Conduct_Media_Day_in_Finland_(7357107).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-076",
+      "source_path": "images/helicopter/016-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation and Allied Partners Conduct Media Day in Finland (7357108).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_and_Allied_Partners_Conduct_Media_Day_in_Finland_(7357108).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-077",
+      "source_path": "images/helicopter/017-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation and Allied Partners Conduct Media Day in Finland (7357109).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_and_Allied_Partners_Conduct_Media_Day_in_Finland_(7357109).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-078",
+      "source_path": "images/helicopter/018-Army-Aviation-and-Allied-Partners-Conduct-Media-Day-in-Finla.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation and Allied Partners Conduct Media Day in Finland (7357110).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_and_Allied_Partners_Conduct_Media_Day_in_Finland_(7357110).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-079",
+      "source_path": "images/helicopter/019-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation Conducts Cultural-Exchange Flight in Finland (7360365).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_Conducts_Cultural-Exchange_Flight_in_Finland_(7360365).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-080",
+      "source_path": "images/helicopter/020-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation Conducts Cultural-Exchange Flight in Finland (7360366).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_Conducts_Cultural-Exchange_Flight_in_Finland_(7360366).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-081",
+      "source_path": "images/helicopter/021-Army-Aviation-Conducts-Cultural-Exchange-Flight-in-Finland-7.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Army Aviation Conducts Cultural-Exchange Flight in Finland (7360367).jpg",
+        "artist": "U.S. Army National Guard photo by Sgt. Agustin Montanez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Army_Aviation_Conducts_Cultural-Exchange_Flight_in_Finland_(7360367).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-082",
+      "source_path": "images/helicopter/022-Bulgariain-special-operations-forces-soldier-fastlines-durin.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Bulgariain special operations forces soldier fastlines during Trojan Footprint 24 (8271301).jpg",
+        "artist": "Sgt. Alejandro Lucero",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bulgariain_special_operations_forces_soldier_fastlines_during_Trojan_Footprint_24_(8271301).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-083",
+      "source_path": "images/helicopter/023-CH-47-Chinook-Training-7348877-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:CH-47 Chinook Training (7348877).jpg",
+        "artist": "U.S. Army 105MPAD by Pfc. Joshua Linfoot",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:CH-47_Chinook_Training_(7348877).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-084",
+      "source_path": "images/helicopter/024-Danish-Sailors-Visit-USS-Wasp-LHD-1-8474793-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Danish Sailors Visit USS Wasp (LHD 1) (8474793).jpg",
+        "artist": "U.S. Navy photo by Chief Petty Officer Darren Moore",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Danish_Sailors_Visit_USS_Wasp_(LHD_1)_(8474793).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-085",
+      "source_path": "images/helicopter/025-Defender-Europe-22-Multi-National-STX-7253528-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Defender Europe 22 Multi National STX (7253528).jpg",
+        "artist": "U.S. Army photo by Capt. Tobias Cukale",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Defender_Europe_22_Multi_National_STX_(7253528).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-086",
+      "source_path": "images/helicopter/026-European-Best-Sniper-Team-Competition-2024-8573682-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:European Best Sniper Team Competition 2024 (8573682).jpg",
+        "artist": "U.S. Army photo by Pfc. Jaimee Perez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:European_Best_Sniper_Team_Competition_2024_(8573682).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-087",
+      "source_path": "images/helicopter/027-Exercise-Northern-Strike-2025-in-Michigan-August-2025-14-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Exercise Northern Strike 2025 in Michigan, August 2025 - 14.jpg",
+        "artist": "The National Guard",
+        "license": "CC BY 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Exercise_Northern_Strike_2025_in_Michigan,_August_2025_-_14.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-088",
+      "source_path": "images/helicopter/028-Kalundborg-port-operation-for-DEFENDER-24-8360284-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Kalundborg port operation for DEFENDER 24 (8360284).jpg",
+        "artist": "U.S. Army photo by Elena Baladelli",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Kalundborg_port_operation_for_DEFENDER_24_(8360284).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-089",
+      "source_path": "images/helicopter/029-KFOR-RC-E-Aviation-conducts-multiship-training-6323039-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:KFOR RC-E Aviation conducts multiship training (6323039).jpg",
+        "artist": "U.S. Army National Guard photo by Capt. Adam Wehrle",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:KFOR_RC-E_Aviation_conducts_multiship_training_(6323039).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-090",
+      "source_path": "images/helicopter/030-Saber-Junction-24-8617881-jpg.jpg",
+      "original_label": "helicopter",
+      "final_label": "Helicopter",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Saber Junction 24 (8617881).jpg",
+        "artist": "U.S. Army photo by Pfc. Jaimee Perez",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Saber_Junction_24_(8617881).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-091",
+      "source_path": "images/military-vehicle/001-A-huge-motorized-Soviet-convoy-advances-across-the-Grand-Khi.png",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:A huge motorized Soviet convoy advances across the Grand Khingan Mountain Range in south central Manchuria.png",
+        "artist": "Semjon Raskin",
+        "license": "CC BY-SA 3.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_huge_motorized_Soviet_convoy_advances_across_the_Grand_Khingan_Mountain_Range_in_south_central_Manchuria.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-092",
+      "source_path": "images/military-vehicle/003-Gunners-conduct-rearm-refuel-and-resupply-point-R3P-LPD-9822.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Gunners conduct rearm, refuel and resupply point (R3P) LPD (9822395).jpg",
+        "artist": "U.S. Army photo by 1st Lt. Bryan Kott",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Gunners_conduct_rearm,_refuel_and_resupply_point_(R3P)_LPD_(9822395).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-093",
+      "source_path": "images/military-vehicle/004-HSTVL-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:HSTVL.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:HSTVL.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-094",
+      "source_path": "images/military-vehicle/005-Landsverk-L-60-at-Collins-Barracks-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Landsverk L-60 at Collins Barracks.jpg",
+        "artist": "Emperor Gibus the 3rd",
+        "license": "CC BY 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Landsverk_L-60_at_Collins_Barracks.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-095",
+      "source_path": "images/military-vehicle/007-Object-184-3-T-72B3-RAE-2013-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Object 184-3 T-72B3 RAE-2013.jpg",
+        "artist": "KBM",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Object_184-3_T-72B3_RAE-2013.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-096",
+      "source_path": "images/military-vehicle/011-AlfredPalmerM3tank1942b-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:AlfredPalmerM3tank1942b.jpg",
+        "artist": "Alfred T. Palmer",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:AlfredPalmerM3tank1942b.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-097",
+      "source_path": "images/military-vehicle/012-BMP-1-Zlot-Dar-owo-2009-JPG.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:BMP-1 Zlot Dar\u0142owo 2009.JPG",
+        "artist": "\u0141ukasz Golowanow & Maciek Hyp\u015b, Konflikty.pl",
+        "license": "Attribution",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:BMP-1_Zlot_Dar%C5%82owo_2009.JPG"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-098",
+      "source_path": "images/military-vehicle/013-Crew-of-a-Sherman-tank-south-of-Vaucelles-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Crew of a Sherman-tank south of Vaucelles.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Crew_of_a_Sherman-tank_south_of_Vaucelles.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-099",
+      "source_path": "images/military-vehicle/014-Dutch-Panzerhaubitz-fires-in-Afghanistan-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Dutch Panzerhaubitz fires in Afghanistan.jpg",
+        "artist": "Gerben van Es/Ministerie van Defensie",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Dutch_Panzerhaubitz_fires_in_Afghanistan.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-100",
+      "source_path": "images/military-vehicle/016-2014-Stepanakert-Czo-g-T-72-01-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:2014 Stepanakert, Czo\u0142g T-72 (01).jpg",
+        "artist": "Marcin Konsek",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:2014_Stepanakert,_Czo%C5%82g_T-72_(01).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-101",
+      "source_path": "images/military-vehicle/017-2014-Stepanakert-Czo-g-T-72-03-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:2014 Stepanakert, Czo\u0142g T-72 (03).jpg",
+        "artist": "Marcin Konsek",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:2014_Stepanakert,_Czo%C5%82g_T-72_(03).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-102",
+      "source_path": "images/military-vehicle/020-At-Museo-Hist-rico-Militar-de-Canarias-2023-419-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museo Hist\u00f3rico Militar de Canarias 2023 419.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museo_Hist%C3%B3rico_Militar_de_Canarias_2023_419.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-103",
+      "source_path": "images/military-vehicle/021-At-Museum-of-American-Armor-2024-087-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museum of American Armor 2024 087.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museum_of_American_Armor_2024_087.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-104",
+      "source_path": "images/military-vehicle/022-At-Museum-of-American-Armor-2024-090-Tiger-I-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museum of American Armor 2024 090 - Tiger I.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museum_of_American_Armor_2024_090_-_Tiger_I.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-105",
+      "source_path": "images/military-vehicle/023-At-Museum-of-American-Armor-2024-096-BA-64-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museum of American Armor 2024 096 - BA-64.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museum_of_American_Armor_2024_096_-_BA-64.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-106",
+      "source_path": "images/military-vehicle/023-Blijmoedig-den-vijand-tegemoet-Van-het-Werfkantoor-naar-de-L.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Blijmoedig den vijand tegemoet Van het Werfkantoor naar de Loopgraven, blz. 22 en 23 (13761090084).jpg",
+        "artist": "Christian van der Ven from 's-Hertogenbosch, Netherlands",
+        "license": "CC BY 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Blijmoedig_den_vijand_tegemoet_Van_het_Werfkantoor_naar_de_Loopgraven,_blz._22_en_23_(13761090084).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-107",
+      "source_path": "images/military-vehicle/024-At-Museum-of-American-Armor-2024-099-Tiger-I-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museum of American Armor 2024 099 - Tiger I.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museum_of_American_Armor_2024_099_-_Tiger_I.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-108",
+      "source_path": "images/military-vehicle/024-T-84-478DU9-driver-station-interior-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:T-84 478DU9 driver station interior.jpg",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:T-84_478DU9_driver_station_interior.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-109",
+      "source_path": "images/military-vehicle/025-At-Museum-of-American-Armor-2024-106-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museum of American Armor 2024 106.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museum_of_American_Armor_2024_106.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-110",
+      "source_path": "images/military-vehicle/025-T-84-478DU9-turret-composite-armor-cross-section-png.png",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:T-84 478DU9 turret composite armor cross section.png",
+        "artist": "Unknown authorUnknown author",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:T-84_478DU9_turret_composite_armor_cross_section.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-111",
+      "source_path": "images/military-vehicle/026-1-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:\u062f\u0628\u0627\u0628\u0629 \u0643\u0641\u064a\u0644 1.jpg",
+        "artist": "Notfoundiq",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:%D8%AF%D8%A8%D8%A7%D8%A8%D8%A9_%D9%83%D9%81%D9%8A%D9%84_1.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-112",
+      "source_path": "images/military-vehicle/026-At-Museum-of-American-Armor-2024-107-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museum of American Armor 2024 107.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museum_of_American_Armor_2024_107.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-113",
+      "source_path": "images/military-vehicle/027-At-Museum-of-American-Armor-2024-114-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:At Museum of American Armor 2024 114.jpg",
+        "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:At_Museum_of_American_Armor_2024_114.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-114",
+      "source_path": "images/military-vehicle/027-BAHNA-2018-026-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:BAHNA 2018 - 026.jpg",
+        "artist": "Adam Hauner",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:BAHNA_2018_-_026.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-115",
+      "source_path": "images/military-vehicle/028-BAHNA-2018-017-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:BAHNA 2018 - 017.jpg",
+        "artist": "Adam Hauner",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:BAHNA_2018_-_017.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-116",
+      "source_path": "images/military-vehicle/028-Belgrade-Military-Museum-PzKpfw-35-t-JPG.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Belgrade Military Museum - PzKpfw 35(t).JPG",
+        "artist": "Pudelek (Marcin Szala)",
+        "license": "CC BY-SA 3.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Belgrade_Military_Museum_-_PzKpfw_35(t).JPG"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-117",
+      "source_path": "images/military-vehicle/029-BAHNA-2018-023-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:BAHNA 2018 - 023.jpg",
+        "artist": "Adam Hauner",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:BAHNA_2018_-_023.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-118",
+      "source_path": "images/military-vehicle/029-Belgrade-Military-Museum-Renault-FT-17-JPG.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Belgrade Military Museum - Renault FT-17.JPG",
+        "artist": "Pudelek (Marcin Szala)",
+        "license": "CC BY-SA 3.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Belgrade_Military_Museum_-_Renault_FT-17.JPG"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-119",
+      "source_path": "images/military-vehicle/030-BAHNA-2018-024-crop-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Military Vehicle",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:BAHNA 2018 - 024 crop.jpg",
+        "artist": "Adam Hauner",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:BAHNA_2018_-_024_crop.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-120",
+      "source_path": "images/military-vehicle/030-Brest-Fortress-T-44-2024-09-19-3744-jpg.jpg",
+      "original_label": "military-vehicle",
+      "final_label": "Tank",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Brest Fortress T-44 2024-09-19 3744.jpg",
+        "artist": "Mike1979 Russia",
+        "license": "CC BY-SA 3.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Brest_Fortress_T-44_2024-09-19_3744.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-121",
+      "source_path": "images/naval/002-200-S-KWG-31-18392362796-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:200-S-KWG-31 (18392362796).jpg",
+        "artist": "National Museum of the U.S. Navy",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:200-S-KWG-31_(18392362796).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-122",
+      "source_path": "images/naval/003-200-S-KWG-33-17796112674-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:200-S-KWG-33 (17796112674).jpg",
+        "artist": "National Museum of the U.S. Navy",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:200-S-KWG-33_(17796112674).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-123",
+      "source_path": "images/naval/004-200-S-KWG-35-18230940858-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:200-S-KWG-35 (18230940858).jpg",
+        "artist": "National Museum of the U.S. Navy",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:200-S-KWG-35_(18230940858).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-124",
+      "source_path": "images/naval/005-20151023-PRTN-2590P-027-2-22421009232-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:20151023-PRTN-2590P-027-2 (22421009232).jpg",
+        "artist": "Allied Joint Force Command Brunssum",
+        "license": "CC BY-SA 2.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:20151023-PRTN-2590P-027-2_(22421009232).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-125",
+      "source_path": "images/naval/006-A-CARINA-undersea-glider-is-prepared-for-launch-aboard-a-mul.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:A CARINA undersea glider is prepared for launch aboard a multi-purpose craft.jpg",
+        "artist": "U.S. Navy photo",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_CARINA_undersea_glider_is_prepared_for_launch_aboard_a_multi-purpose_craft.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-126",
+      "source_path": "images/naval/008-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Amerikaanse torpedojagers Pardy en Bristol te Amsterdam, Bestanddeelnr 903-0992.jpg",
+        "artist": "Ben Merk / Anefo",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Amerikaanse_torpedojagers_Pardy_en_Bristol_te_Amsterdam,_Bestanddeelnr_903-0992.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-127",
+      "source_path": "images/naval/009-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Amerikaanse torpedojagers Pardy en Bristol te Amsterdam, Bestanddeelnr 903-0993.jpg",
+        "artist": "Ben Merk / Anefo",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Amerikaanse_torpedojagers_Pardy_en_Bristol_te_Amsterdam,_Bestanddeelnr_903-0993.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-128",
+      "source_path": "images/naval/010-Amerikaanse-torpedojagers-Pardy-en-Bristol-te-Amsterdam-Best.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Amerikaanse torpedojagers Pardy en Bristol te Amsterdam, Bestanddeelnr 903-0994.jpg",
+        "artist": "Ben Merk / Anefo",
+        "license": "CC0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Amerikaanse_torpedojagers_Pardy_en_Bristol_te_Amsterdam,_Bestanddeelnr_903-0994.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-129",
+      "source_path": "images/naval/011-ARC-2-Neptune-cable-drums-below-deck-png.png",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:ARC-2 Neptune cable drums below deck.png",
+        "artist": "Navy, Bureau of Ships",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:ARC-2_Neptune_cable_drums_below_deck.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-130",
+      "source_path": "images/naval/012-ARC-2-Neptune-cable-drums-from-foredeck-png.png",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:ARC-2 Neptune cable drums from foredeck.png",
+        "artist": "Navy, Bureau of Ships",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:ARC-2_Neptune_cable_drums_from_foredeck.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-131",
+      "source_path": "images/naval/013-Atlantic-Fleet-1920-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Atlantic Fleet, 1920.jpg",
+        "artist": "Associated Press",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Atlantic_Fleet,_1920.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-132",
+      "source_path": "images/naval/016-Christening-USS-Batfish-png.png",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Christening USS Batfish.png",
+        "artist": "US Navy",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Christening_USS_Batfish.png"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-133",
+      "source_path": "images/naval/017-Giovanni-Bausan-and-fleet-in-Hudson-R-N-Y-14868394968-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:'Giovanni Bausan' and fleet in Hudson R. N.Y. (14868394968).jpg",
+        "artist": "SMU Central University Libraries",
+        "license": "No restrictions",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:%27Giovanni_Bausan%27_and_fleet_in_Hudson_R._N.Y._(14868394968).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-134",
+      "source_path": "images/naval/018-British-Vessels-captured-while-trying-to-run-the-Blockade-jp.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:British Vessels captured while trying to run the Blockade.jpg",
+        "artist": "www.navsource.org & www.history.navy.mil",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:British_Vessels_captured_while_trying_to_run_the_Blockade.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-135",
+      "source_path": "images/naval/018-Deactivation-ceremony-for-Narwhal-TWR-842-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Deactivation ceremony for Narwhal (TWR-842).jpg",
+        "artist": "US Navy Mass Communications Specialist 2nd Class Kyle Carlstrom",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Deactivation_ceremony_for_Narwhal_(TWR-842).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-136",
+      "source_path": "images/naval/019-Capture-of-USS-Isaac-Smith-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Capture of USS Isaac Smith.jpg",
+        "artist": "www.ebay.com",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Capture_of_USS_Isaac_Smith.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-137",
+      "source_path": "images/naval/020-CSA-cottonclads-rams-captures-United-States-Sloop-Morning-Li.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:CSA cottonclads rams captures United States Sloop Morning Light.jpg",
+        "artist": "civilwartalk.com",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:CSA_cottonclads_rams_captures_United_States_Sloop_Morning_Light.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-138",
+      "source_path": "images/naval/022-General-Burnside-s-Expedition-Fort-Bartow-Roanoke-Island-aft.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:General Burnside's Expedition\u02d0 Fort Bartow, Roanoke Island, after its capture by the Federalists. The Civil War in America - ILN-1862-0322-0017 (cropped).jpg",
+        "artist": "Richard Principal Leitch / After Frank Vizetelly",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:General_Burnside%27s_Expedition%CB%90_Fort_Bartow,_Roanoke_Island,_after_its_capture_by_the_Federalists._The_Civil_War_in_America_-_ILN-1862-0322-0017_(cropped).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-139",
+      "source_path": "images/naval/023-Governor-Milton-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Governor Milton.jpg",
+        "artist": "Frank Leslie's Illustrated Newspaper",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Governor_Milton.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-140",
+      "source_path": "images/naval/024-IJ-Afgesloten-foto-60-Jacob-Olie-max-res-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:IJ (Afgesloten), foto 60 Jacob Olie (max res).jpg",
+        "artist": "Jacob Olie",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:IJ_(Afgesloten),_foto_60_Jacob_Olie_(max_res).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-141",
+      "source_path": "images/naval/025-E-B-Hale-and-Stars-Stripes-fitting-out-1861-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:E. B. Hale and Stars & Stripes fitting out, 1861.jpg",
+        "artist": "Harper's Weekly",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:E._B._Hale_and_Stars_%26_Stripes_fitting_out,_1861.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-142",
+      "source_path": "images/naval/025-IJ-Afgesloten-foto-61-Jacob-Olie-max-res-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:IJ (Afgesloten), foto 61 Jacob Olie (max res).jpg",
+        "artist": "Jacob Olie",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:IJ_(Afgesloten),_foto_61_Jacob_Olie_(max_res).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-143",
+      "source_path": "images/naval/026-LC-DIG-CWPB-03829-17115225447-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:LC-DIG-CWPB-03829 (17115225447).jpg",
+        "artist": "National Museum of the U.S. Navy",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:LC-DIG-CWPB-03829_(17115225447).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-144",
+      "source_path": "images/naval/027-Little-Rebel-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Little Rebel.jpg",
+        "artist": "Cowan's",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Little_Rebel.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-145",
+      "source_path": "images/naval/028-Gunston-Hall-visits-Narvik-Norway-7157142-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Gunston Hall visits Narvik, Norway (7157142).jpg",
+        "artist": "U.S. Navy USSGH-LSD44 by Seaman Keith Nowak",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Gunston_Hall_visits_Narvik,_Norway_(7157142).jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-146",
+      "source_path": "images/naval/028-Map-of-the-Site-of-Capture-of-Steamer-Bat-by-USS-Montgomery.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Map of the Site of Capture of Steamer Bat by USS Montgomery - NARA - 6925471.jpg",
+        "artist": "Unknown authorUnknown author or not provided",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Map_of_the_Site_of_Capture_of_Steamer_Bat_by_USS_Montgomery_-_NARA_-_6925471.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-147",
+      "source_path": "images/naval/029-HMCS-St-Laurent-3rd-in-line-to-refuel-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:HMCS St. Laurent 3rd in line to refuel.jpg",
+        "artist": "BrettA343",
+        "license": "CC BY-SA 4.0",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:HMCS_St._Laurent_3rd_in_line_to_refuel.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-148",
+      "source_path": "images/naval/029-McDougall-Duluthshipyard-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:McDougall-Duluthshipyard.jpg",
+        "artist": "Alexander McDougall (Life time: 1919)",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:McDougall-Duluthshipyard.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-149",
+      "source_path": "images/naval/030-McDougall-Duluthshipyard2-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:McDougall-Duluthshipyard2.jpg",
+        "artist": "Alexander McDougall (Life time: 1918)",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:McDougall-Duluthshipyard2.jpg"
+      }
+    },
+    {
+      "image_id": "ASTRA-SUP-150",
+      "source_path": "images/naval/032-Menatonon-YTB-254-jpg.jpg",
+      "original_label": "naval",
+      "final_label": "Ship",
+      "review_status": "REVIEWED_APPROVED",
+      "is_trainable": true,
+      "split": null,
+      "provenance": {
+        "source_title": "File:Menatonon(YTB-254).jpg",
+        "artist": "US Navy",
+        "license": "Public domain",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Menatonon(YTB-254).jpg"
+      }
+    }
+  ]
+}
