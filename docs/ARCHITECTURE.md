@@ -29,7 +29,7 @@ flowchart TD
 
     %% 2. Processing & Validation Layer
     subgraph Processing_Layer ["2. Processing & Validation Layer"]
-        ClientVal["Client-Side Validation<br/>(File format, file size &le; 10MB)"]
+        ClientVal["Client-Side Validation<br/>(File format, size up to 10MB)"]
         APIGateway["FastAPI API Gateway<br/>(POST /api/classify, /api/classify/batch)"]
         PillowPreproc["Server Preprocessing (Pillow)<br/>(Raster decoding, RGB conversion, 32px-4096px bounds)"]
         
@@ -45,7 +45,7 @@ flowchart TD
         Prompts["Centralized Prompt Templates<br/>(6 Canonical Defence Classes)"]
         SigmoidSim["Pairwise Sigmoid Similarity<br/>(Image-Text Feature Alignment)"]
         Ranker["Deterministic Top-3 Ranker<br/>(Score Descending + Taxonomy Tie-Break)"]
-        UncertaintyEngine["Heuristic Uncertainty Engine<br/>(Score &lt; 0.0100, Margin &lt; 0.0200)"]
+        UncertaintyEngine["Heuristic Uncertainty Engine<br/>(Score Threshold: 0.0100, Margin: 0.0200)"]
         
         PillowPreproc --> ModelSingleton
         Prompts --> ModelSingleton
@@ -74,8 +74,8 @@ flowchart TD
         SuppliedDataset["Supplied Starter Dataset (150 Images)<br/>labels.csv + credits.csv (Wikimedia Commons)"]
         HeldOutBenchmark["Frozen Held-Out Benchmark (30 Images)<br/>SHA-256 Verified, Zero Data Leakage"]
         
-        SuppliedDataset -.Provenance &amp; Training Context.-> ModelSingleton
-        HeldOutBenchmark -.Evaluation Benchmark (91.0% Top-1).-> ModelSingleton
+        SuppliedDataset -.->|Provenance & Training Context| ModelSingleton
+        HeldOutBenchmark -.->|Evaluation Benchmark: 91% Top-1| ModelSingleton
     end
 
     %% Supporting Workflows
@@ -90,8 +90,8 @@ flowchart TD
         LoRAExp["Phase 8G LoRA Fine-Tuning<br/>(models/finetuned/checkpoint-best/)<br/>ARCHIVED: +8.15% Latency Overhead"]
         CLIPComp["Phase 8B Model Comparison<br/>(OpenAI CLIP ViT-B/16: 83.33% vs SigLIP 2: 91.0%)"]
         
-        LoRAExp -.Archived / Not Production.-> ModelSingleton
-        CLIPComp -.Comparative Baseline.-> ModelSingleton
+        LoRAExp -.->|Archived: Non-Production| ModelSingleton
+        CLIPComp -.->|Comparative Baseline| ModelSingleton
     end
 ```
 
