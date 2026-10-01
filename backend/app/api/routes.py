@@ -1,5 +1,5 @@
 from typing import Optional, List
-from fastapi import APIRouter, File, UploadFile, status
+from fastapi import APIRouter, File, UploadFile, Query, status
 from fastapi.responses import JSONResponse
 
 from app.core.config import settings
@@ -17,6 +17,10 @@ from app.schemas.classification import (
     ClassificationErrorResponse,
     BatchClassificationResponse,
 )
+from app.schemas.detection import (
+    DetectionResponse,
+    DetectionErrorResponse,
+)
 from app.services.image_service import image_service, ImageValidationError
 from app.services.inference_service import (
     inference_service,
@@ -26,6 +30,11 @@ from app.services.inference_service import (
 from app.services.classification_service import (
     classification_service,
     ClassificationError,
+)
+from app.services.detection_service import (
+    detection_service,
+    DetectionModelUnavailableError,
+    DetectionInferenceError,
 )
 from app.utils.logger import logger
 
@@ -323,6 +332,93 @@ async def classify_batch_objects(
                 "error": {
                     "code": "INTERNAL_ERROR",
                     "message": "An unexpected error occurred during batch classification.",
+                }
+            },
+        )
+
+
+@router.post(
+    "/detect",
+    response_model=DetectionResponse,
+    responses={
+        400: {"model": DetectionErrorResponse},
+        500: {"model": DetectionErrorResponse},
+        503: {"model": DetectionErrorResponse},
+    },
+    tags=["Object Detection"],
+)
+async def detect_objects(
+    image: Optional[UploadFile] = File(None),
+    box_threshold: Optional[float] = Query(None, ge=0.0, le=1.0, description="Optional detection box threshold override"),
+    text_threshold: Optional[float] = Query(None, ge=0.0, le=1.0, description="Optional text alignment threshold override"),
+):
+    """Phase 10: Multi-object detection with bounding boxes via Grounding DINO.
+
+    Accepts an uploaded reconnaissance image, validates boundaries, converts to RGB,
+    and returns detected defence assets with bounding boxes mapped to the production taxonomy.
+    """
+    if image is None:
+        return JSONResponse(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            content={
+                "error": {
+                    "code": "MISSING_FILE",
+                    "message": "No image file provided. Please upload an image using the 'image' field.",
+                }
+            },
+        )
+
+    try:
+        file_bytes = await image.read()
+        result = detection_service.detect_objects(
+            file_bytes=file_bytes,
+            filename=image.filename or "uploaded_image",
+            content_type=image.content_type,
+            box_threshold=box_threshold,
+            text_threshold=text_threshold,
+        )
+        return DetectionResponse(**result)
+    except ImageValidationError as exc:
+        logger.warning(f"Detection rejected image '{image.filename}': [{exc.code}] {exc.message}")
+        return JSONResponse(
+            status_code=exc.status_code,
+            content={
+                "error": {
+                    "code": exc.code,
+                    "message": exc.message,
+                }
+            },
+        )
+    except DetectionModelUnavailableError as exc:
+        logger.error(f"Detection model unavailable: {exc.message}")
+        return JSONResponse(
+            status_code=exc.status_code,
+            content={
+                "error": {
+                    "code": exc.code,
+                    "message": exc.message,
+                }
+            },
+        )
+    except DetectionInferenceError as exc:
+        logger.error(f"Detection inference failure: {exc.message}")
+        return JSONResponse(
+            status_code=exc.status_code,
+            content={
+                "error": {
+                    "code": exc.code,
+                    "message": exc.message,
+                }
+            },
+        )
+    except Exception as exc:
+        logger.error(f"Unhandled error during object detection for '{image.filename}': {str(exc)}", exc_info=True)
+        return JSONResponse(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            content={
+                "error": {
+                    "code": "INTERNAL_ERROR",
+                    "message": "An unexpected error occurred during object detection.",
                 }
             },
         )

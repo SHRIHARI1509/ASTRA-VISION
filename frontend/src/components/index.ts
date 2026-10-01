@@ -8,4 +8,5 @@ export * from './BatchWorkspace';
 export * from './HistoryGallery';
 export * from './TelemetryPanel';
 export * from './Footer';
+export * from './DetectionWorkspace';
 

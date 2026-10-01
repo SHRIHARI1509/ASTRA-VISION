@@ -63,6 +63,45 @@ class Settings(BaseSettings):
     # Batch Processing Configuration (Phase 8C)
     MAX_BATCH_SIZE: int = 20
 
+    # Phase 10: Multi-Object Detection Configuration (Grounding DINO)
+    # Note: Detection thresholds are empirical filtering operating thresholds,
+    # NOT calibrated statistical probabilities.
+    DETECTION_MODEL_ID: str = "IDEA-Research/grounding-dino-base"
+    DETECTION_DEVICE: str = "auto"  # "auto", "cuda", or "cpu"
+    PRELOAD_DETECTOR: bool = False
+    DETECTION_BOX_THRESHOLD: float = 0.35
+    DETECTION_TEXT_THRESHOLD: float = 0.25
+    DETECTION_PROMPTS: List[str] = [
+        "a tank.",
+        "a military vehicle.",
+        "a fighter aircraft.",
+        "a helicopter.",
+        "a ship.",
+        "a drone.",
+    ]
+    DETECTION_LABEL_MAP: Dict[str, str] = {
+        "tank": "Tank",
+        "a tank": "Tank",
+        "military vehicle": "Military Vehicle",
+        "a military vehicle": "Military Vehicle",
+        "vehicle": "Military Vehicle",
+        "fighter aircraft": "Fighter Aircraft",
+        "a fighter aircraft": "Fighter Aircraft",
+        "fighter": "Fighter Aircraft",
+        "aircraft": "Fighter Aircraft",
+        "plane": "Fighter Aircraft",
+        "helicopter": "Helicopter",
+        "a helicopter": "Helicopter",
+        "ship": "Ship",
+        "a ship": "Ship",
+        "boat": "Ship",
+        "vessel": "Ship",
+        "drone": "Drone",
+        "a drone": "Drone",
+        "uav": "Drone",
+        "uas": "Drone",
+    }
+
     model_config = SettingsConfigDict(
         case_sensitive=True,
         env_file=".env",

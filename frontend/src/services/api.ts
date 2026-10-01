@@ -3,6 +3,7 @@ import type {
   ImageValidationResult,
   ClassificationResponse,
   BatchClassificationResponse,
+  DetectionApiResponse,
 } from '../types';
 
 export const apiService = {
@@ -178,5 +179,55 @@ export const apiService = {
       failed,
       results,
     };
+  },
+
+  /**
+   * Submits an image to the multi-object detection endpoint (POST /api/detect).
+   */
+  async detectObjects(
+    file: File,
+    boxThreshold?: number,
+    textThreshold?: number
+  ): Promise<DetectionApiResponse> {
+    const formData = new FormData();
+    formData.append('image', file);
+
+    let url = '/api/detect';
+    const params = new URLSearchParams();
+    if (boxThreshold !== undefined) {
+      params.append('box_threshold', boxThreshold.toString());
+    }
+    if (textThreshold !== undefined) {
+      params.append('text_threshold', textThreshold.toString());
+    }
+    const qs = params.toString();
+    if (qs) {
+      url += `?${qs}`;
+    }
+
+    const response = await fetch(url, {
+      method: 'POST',
+      body: formData,
+    });
+
+    let data: any;
+    try {
+      data = await response.json();
+    } catch {
+      throw new Error(`Unexpected server response (HTTP ${response.status})`);
+    }
+
+    if (!response.ok) {
+      const errorMessage =
+        data?.error?.message ||
+        `Object detection request failed (HTTP ${response.status})`;
+      throw new Error(errorMessage);
+    }
+
+    if (!Array.isArray(data?.detections)) {
+      throw new Error('Malformed detection response from server.');
+    }
+
+    return data as DetectionApiResponse;
   },
 };

@@ -1,7 +1,7 @@
 # ASTRA VISION — AI-Based Defence Object Recognition System
 
-[![Backend Regression](https://img.shields.io/badge/Backend%20Tests-190%2F190%20PASSED-brightgreen.svg)]()
-[![Frontend Tests](https://img.shields.io/badge/Frontend%20Tests-68%2F68%20PASSED-brightgreen.svg)]()
+[![Backend Regression](https://img.shields.io/badge/Backend%20Tests-207%2F207%20PASSED-brightgreen.svg)]()
+[![Frontend Tests](https://img.shields.io/badge/Frontend%20Tests-82%2F82%20PASSED-brightgreen.svg)]()
 [![Typecheck](https://img.shields.io/badge/TypeScript-0%20Errors-brightgreen.svg)]()
 [![Production Build](https://img.shields.io/badge/Vite%20Build-PASS-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -86,15 +86,17 @@ A formal comparative benchmark was executed against `openai/clip-vit-base-patch1
 * **Outcome:** Reached 96.55% validation accuracy and matched the baseline 100.0% accuracy on the held-out benchmark.
 * **Decision:** Incurred +127.15 ms/image (+8.15%) latency overhead on CPU. In accordance with strict deployment governance, the **frozen baseline was retained in production**. The fine-tuned weights remain archived in [`models/finetuned/checkpoint-best/`](file:///c:/FILES/astra-vision/models/finetuned/checkpoint-best/). See [`docs/PHASE_8G_FINETUNING_REPORT.md`](file:///c:/FILES/astra-vision/docs/PHASE_8G_FINETUNING_REPORT.md).
 
-## 14. Detection Readiness & Infrastructure
-* While the starter dataset contains only classification labels, Phase 8E established detection readiness scaffolding in [`backend/app/detection/`](file:///c:/FILES/astra-vision/backend/app/detection/).
-* **Strict Guardrail:** Object detection is **not** active in production, and no synthetic or fake bounding boxes are generated.
+## 14. Phase 10: Multi-Object Detection with Bounding Boxes
+* **Additive Bonus Capability:** Introduced separate zero-shot open-vocabulary spatial object detection via `IDEA-Research/grounding-dino-base`.
+* **Separate Pipeline:** Fully isolated endpoint `POST /api/detect` and frontend tab. The core SigLIP 2 classification pipeline is completely preserved.
+* **Strict Dataset Governance:** The supplied dataset has zero bounding box annotations. No fake annotations, pseudo-labels, or synthetic training was performed. Grounding DINO runs off-the-shelf and maps detections strictly to ASTRA's 6-class production taxonomy.
+* **Full Documentation:** See [`docs/phase-10-detection.md`](file:///c:/FILES/astra-vision/docs/phase-10-detection.md) and [`docs/PHASE_10_FINAL_REPORT.md`](file:///c:/FILES/astra-vision/docs/PHASE_10_FINAL_REPORT.md).
 
 ## 15. Limitations & Caveats
 * **Benchmark Size:** The 30-image benchmark is statistically compact; 100% accuracy does **not** imply universal real-world accuracy across all operational conditions.
 * **No Calibrated Probabilities:** Similarity scores reflect empirical visual-text feature proximity, not Bayesian probabilities.
 * **Starter Dataset Taxonomy:** The 150-image starter dataset contained ambiguous vehicle labels that required human-in-the-loop review.
-* **CPU Latency:** Average CPU inference latency is ~1.5s per image; real-time video feeds require GPU hardware acceleration.
+* **CPU Latency:** Average CPU inference latency is ~1.5s per image for SigLIP 2 classification, and ~12–19s for Grounding DINO detection; real-time video feeds require GPU hardware acceleration.
 * **Full Limitations Document:** See [`docs/LIMITATIONS.md`](file:///c:/FILES/astra-vision/docs/LIMITATIONS.md).
 
 ## 16. Dataset Provenance
@@ -129,12 +131,12 @@ Web console runs at `http://localhost:5173` (proxies `/api` requests to backend)
 
 ## 18. How to Run Tests
 
-### Run All Backend Regression Tests (190 Tests)
+### Run All Backend Regression & Detection Tests (207 Tests)
 ```powershell
 .\venv\Scripts\pytest -v
 ```
 
-### Run All Frontend Unit Tests (68 Tests)
+### Run All Frontend Unit Tests (82 Tests)
 ```powershell
 cd frontend
 npm test
@@ -143,7 +145,7 @@ npm test
 ### Run TypeScript Typecheck & Production Build
 ```powershell
 cd frontend
-npm run typecheck   # Strict tsc -b
+npm run typecheck   # Strict tsc -b (0 errors)
 npm run build       # Vite production bundle
 ```
 

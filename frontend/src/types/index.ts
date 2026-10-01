@@ -136,3 +136,29 @@ export interface HistoryItem {
   previewUrl?: string;
 }
 
+// Phase 10: Multi-Object Detection Types
+export interface BoundingBoxCoords {
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+}
+
+export interface DetectedObjectItem {
+  class_name: string;
+  score: number;
+  box: BoundingBoxCoords;
+}
+
+export interface DetectionApiResponse {
+  detections: DetectedObjectItem[];
+  image_width: number;
+  image_height: number;
+  count: number;
+  detector?: string;
+  device?: string;
+  inference_time_ms?: number;
+}
+
+export type OperationalMode = 'classification' | 'detection';
+

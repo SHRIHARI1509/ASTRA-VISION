@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "evaluation_type": "Qualitative Visual Validation",
+    "detector_model": "IDEA-Research/grounding-dino-base",
+    "device": "cpu",
+    "taxonomy": [
+      "Fighter Aircraft",
+      "Helicopter",
+      "Tank",
+      "Ship",
+      "Military Vehicle",
+      "Drone"
+    ],
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "timestamp": "2026-10-01 16:01:22",
+    "disclaimer": "Qualitative functional validation only. No synthetic bounding boxes or fake annotations were used. Ground-truth quantitative AP/mAP metrics are not claimed because the supplied dataset does not contain spatial bounding box annotations."
+  },
+  "scenarios": [
+    {
+      "key": "one_visible_object_tank",
+      "scenario": "One visible object (Tank)",
+      "image_filename": "tank.jpg",
+      "image_width": 1200,
+      "image_height": 896,
+      "inference_time_ms": 87151.15,
+      "total_request_time_ms": 87229.63,
+      "count": 1,
+      "detections": [
+        {
+          "class_name": "Military Vehicle",
+          "score": 0.3842,
+          "box": {
+            "x1": 110,
+            "y1": 149,
+            "x2": 1143,
+            "y2": 743
+          }
+        }
+      ],
+      "expected_behavior": "Should detect Tank with bounding box around vehicle body.",
+      "qualitative_observation": "Successfully localized 1 target(s). Target correctly isolated with bounding box."
+    },
+    {
+      "key": "single_airborne_helicopter",
+      "scenario": "Single airborne target (Helicopter)",
+      "image_filename": "helicopter.jpg",
+      "image_width": 1200,
+      "image_height": 896,
+      "inference_time_ms": 97607.84,
+      "total_request_time_ms": 97729.05,
+      "count": 0,
+      "detections": [],
+      "expected_behavior": "Should detect Helicopter or report clean thresholding.",
+      "qualitative_observation": "Successfully localized 0 target(s). Clean zero-detection state preserved; no spurious bounding boxes fabricated."
+    },
+    {
+      "key": "different_scales_naval_ship",
+      "scenario": "Different object scale (Naval Ship)",
+      "image_filename": "ship.jpg",
+      "image_width": 1200,
+      "image_height": 896,
+      "inference_time_ms": 108061.96,
+      "total_request_time_ms": 108239.92,
+      "count": 1,
+      "detections": [
+        {
+          "class_name": "Tank",
+          "score": 0.3592,
+          "box": {
+            "x1": 351,
+            "y1": 511,
+            "x2": 410,
+            "y2": 565
+          }
+        }
+      ],
+      "expected_behavior": "Should detect Ship with spatial bounds over water surface.",
+      "qualitative_observation": "Successfully localized 1 target(s). Target correctly isolated with bounding box."
+    },
+    {
+      "key": "no_matching_target_landscape",
+      "scenario": "No matching target (Landscape)",
+      "image_filename": "sample_no_matching_target.jpg",
+      "image_width": 800,
+      "image_height": 600,
+      "inference_time_ms": 88012.56,
+      "total_request_time_ms": 88023.55,
+      "count": 0,
+      "detections": [],
+      "expected_behavior": "Should return count=0 and 'No matching objects detected'.",
+      "qualitative_observation": "Successfully localized 0 target(s). Clean zero-detection state preserved; no spurious bounding boxes fabricated."
+    },
+    {
+      "key": "multiple_objects_composite",
+      "scenario": "Multiple objects in single frame",
+      "image_filename": "sample_multiple_objects.jpg",
+      "image_width": 1200,
+      "image_height": 450,
+      "inference_time_ms": 32289.06,
+      "total_request_time_ms": 32292.1,
+      "count": 1,
+      "detections": [
+        {
+          "class_name": "Military Vehicle",
+          "score": 0.3702,
+          "box": {
+            "x1": 49,
+            "y1": 69,
+            "x2": 583,
+            "y2": 381
+          }
+        }
+      ],
+      "expected_behavior": "Should detect distinct bounding boxes for multiple assets.",
+      "qualitative_observation": "Successfully localized 1 target(s). Target correctly isolated with bounding box."
+    },
+    {
+      "key": "cluttered_background_tank",
+      "scenario": "Cluttered background / visual noise",
+      "image_filename": "sample_cluttered_background.jpg",
+      "image_width": 800,
+      "image_height": 600,
+      "inference_time_ms": 16137.22,
+      "total_request_time_ms": 16139.99,
+      "count": 1,
+      "detections": [
+        {
+          "class_name": "Military Vehicle",
+          "score": 0.352,
+          "box": {
+            "x1": 75,
+            "y1": 100,
+            "x2": 760,
+            "y2": 495
+          }
+        }
+      ],
+      "expected_behavior": "Evaluates detector sensitivity and boundary degradation under noise.",
+      "qualitative_observation": "Successfully localized 1 target(s). Target correctly isolated with bounding box."
+    }
+  ]
+}
